@@ -1,0 +1,113 @@
+*, *::before, *::after {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to left, #c90876, #316497);
+}
+
+.frame {
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  border-radius: 5px;
+  box-shadow: 4px 10px 20px 0 rgba(0, 0, 0, 0.3), -4px -8px 20px 2px rgba(0, 0, 0, 0.3);
+  padding: 5px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  padding: 2px 2px;
+}
+
+.img-1 {
+  transform-origin: top left;
+}
+
+.img-2 {
+  transform-origin: top;
+}
+
+.img-3 {
+  transform-origin: top right;
+}
+
+.img-4 {
+  transform-origin: left;
+}
+
+.img-5 {
+  transform-origin: center;
+}
+
+.img-6 {
+  transform-origin: right;
+}
+
+.img-7 {
+  transform-origin: bottom left;
+}
+
+.img-8 {
+  transform-origin: bottom;
+}
+
+.img-9 {
+  transform-origin: bottom right;
+}
+
+.active {
+  -webkit-animation: active 0.7s cubic-bezier(0.2, 0.84, 0.94, 1) forwards;
+          animation: active 0.7s cubic-bezier(0.2, 0.84, 0.94, 1) forwards;
+}
+
+.close {
+  -webkit-animation: close 0.7s ease-in;
+          animation: close 0.7s ease-in;
+}
+
+@-webkit-keyframes active {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(3);
+  }
+}
+
+@keyframes active {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(3);
+  }
+}
+@-webkit-keyframes close {
+  0% {
+    transform: scale(3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes close {
+  0% {
+    transform: scale(3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}/*# sourceMappingURL=style.css.map */

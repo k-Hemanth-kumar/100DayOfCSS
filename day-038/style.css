@@ -1,0 +1,63 @@
+*, *::after, *::before {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.frame {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.logos {
+  position: relative;
+  height: 150px;
+  width: 200px;
+  transition: all 0.6s ease-in-out;
+}
+.logos .logo {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transition: all 0.6s ease-in-out;
+}
+.logos .logo-1 {
+  background-color: rgb(64, 178, 149);
+  border-radius: 50%;
+  -webkit-clip-path: polygon(50% 0, 75% 25%, 75% 75%, 50% 100%, 25% 75%, 25% 25%);
+          clip-path: polygon(50% 0, 75% 25%, 75% 75%, 50% 100%, 25% 75%, 25% 25%);
+  cursor: pointer;
+  transition: all 0.6s ease-in-out;
+  transition-delay: 0.3s;
+}
+.logos .logo-2 {
+  background-color: white;
+  transform: scale(1);
+  -webkit-clip-path: polygon(50% 0, 75% 25%, 75% 75%, 50% 100%, 25% 75%, 25% 25%);
+          clip-path: polygon(50% 0, 75% 25%, 75% 75%, 50% 100%, 25% 75%, 25% 25%);
+  transition-delay: 0.3s;
+  cursor: pointer;
+}
+.logos .active.logo-1 {
+  transform: scale(5);
+  transition-delay: 0s;
+}
+.logos .active.logo-2 {
+  transform: scale(0);
+  transition-delay: 0s;
+}/*# sourceMappingURL=style.css.map */

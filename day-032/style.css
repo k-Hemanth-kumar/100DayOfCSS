@@ -1,0 +1,192 @@
+*, *::after, *::before {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(5%, #24567e), to(#1ad977));
+  background-image: linear-gradient(to top left, #24567e 5%, #1ad977 100%);
+}
+
+.frame {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  background: #FDB03A;
+  background: -webkit-gradient(linear, left bottom, right top, from(#D2592A), to(#FDB03A));
+  background: linear-gradient(to top right, #D2592A 0%, #FDB03A 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D2592A',  endColorstr='#FDB03A',GradientType=1 );
+  border-radius: 5px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.frame .generator {
+  position: relative;
+  height: 40px;
+  width: 130px;
+  background: #fff;
+  border-radius: 20px;
+  -webkit-box-shadow: 4px 8px 12px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 8px 12px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.frame .generator .minus {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  cursor: pointer;
+}
+
+.frame .generator .minus .line {
+  width: 20px;
+  height: 3px;
+  background-color: #E26E6E;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.frame .generator .minus:hover {
+  background-color: #E26E6E;
+}
+
+.frame .generator .minus:hover .line {
+  background-color: #fff;
+}
+
+.frame .generator .number {
+  height: 30px;
+  width: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+}
+
+.frame .generator .number .value {
+  font-size: 20px;
+  font-weight: 600;
+  color: #6A85A0;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+
+.frame .generator .plus {
+  position: relative;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  cursor: pointer;
+}
+
+.frame .generator .plus .line-h {
+  position: absolute;
+  height: 20px;
+  width: 3px;
+  background-color: #8ED273;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.frame .generator .plus .line-w {
+  height: 3px;
+  width: 20px;
+  background-color: #8ED273;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.frame .generator .plus:hover {
+  background-color: #8ED273;
+}
+
+.frame .generator .plus:hover .line-h, .frame .generator .plus:hover .line-w {
+  background-color: #fff;
+}
+
+@-webkit-keyframes fadeDown {
+  0% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+}
+
+@keyframes fadeDown {
+  0% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+}
+
+@-webkit-keyframes fadeUp {
+  0% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+}
+
+@keyframes fadeUp {
+  0% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+}
+/*# sourceMappingURL=style.css.map */

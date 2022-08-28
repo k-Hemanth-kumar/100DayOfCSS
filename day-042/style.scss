@@ -1,0 +1,99 @@
+*,*::after,*::before{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+}
+.frame{
+    position: relative;
+    height:400px;
+    width:400px;
+    background-image:#fff;
+    box-shadow: 2px 4px 12px 0 rgba(0,0,0,.3);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.galaxy{
+    position: relative;
+    height:250px;
+    width:250px;
+    border-radius: 50%;
+    box-shadow: 3px 8px 15px 0 rgba(0,0,0,.2),-3px -8px 15px 0 rgba(0,0,0,.2);
+    background: linear-gradient(0deg, #5f2e7b 0%, #00a399 40%);
+    overflow: hidden;
+}
+p{
+    position:absolute;
+    top: 100px;
+    left: 100px;
+    top: var(--top);
+    left: var(--left);
+    width: 1px;
+    height: 1px;
+    border-radius: 1px;
+    background-color: #fff;
+    animation: stars var(--duration) var(--delay) ease-in-out infinite;
+}
+@for $i from 0 through 300{
+    p:nth-child(#{$i+1}){
+        --top:#{random(300) + px};
+        --left:#{random(300) + px};
+        --duration:#{random(6) + 3s};
+        --delay:#{3 + random(6) * -1s};
+    }
+}
+.rocket{
+    position: absolute;
+    top: 100px;
+    left: 320px;
+    width: 150px;
+    height: 1px;
+    background-color: #fff;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 2%, rgba(255,255,255,0) 100%);
+	animation: rocket 8s linear infinite;
+}
+.rocket.r2 {
+	width: 160px;
+	left: 320px;
+	top: 20px;
+	animation: rocket 10s linear infinite;
+    animation-delay: 2s;
+}
+.rocket.r3 {
+	width: 120px;
+	left: 320px;
+	top: -20px;
+	animation: rocket 9s linear infinite;
+    animation-delay: 5s;
+}
+.rocket.r4{
+    width: 120px;
+	left: 320px;
+	top: 0px;
+	animation: rocket 9s 7s linear infinite;
+}
+
+@keyframes stars {
+    0%,100%{
+        opacity: 1;
+    }
+	50% {
+		opacity: 0.3;
+	}
+}
+@keyframes rocket{
+    0%,40%{
+        transform: translate(0,0) rotate(-30deg);
+    }
+    60%,100%{
+        transform: translate(-500px,200px) rotate(-30deg);
+    }
+}

@@ -1,0 +1,180 @@
+*, *::after, *::before {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.frame {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 5px;
+  background-color: darkslategrey;
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: grayscale;
+  -webkit-box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.center {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  height: 100px;
+  width: 100px;
+}
+
+.center .circle {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: #f4d146;
+}
+
+.center .eye {
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: darkslategrey;
+  top: 20px;
+  right: 20px;
+  -webkit-animation: eye .5s ease 1.45s infinite;
+          animation: eye .5s ease 1.45s infinite;
+  -webkit-transform-origin: bottom center;
+          transform-origin: bottom center;
+}
+
+.center .mouth {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 50px;
+  -webkit-clip-path: polygon(0 50%, 100% 100%, 100% 0);
+          clip-path: polygon(0 50%, 100% 100%, 100% 0);
+  background-color: darkslategray;
+  -webkit-animation: mouth .5s linear 1.45s infinite;
+          animation: mouth .5s linear 1.45s infinite;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+.center ul {
+  position: absolute;
+  left: 80%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 200px;
+  height: 20px;
+}
+
+.center ul li {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  height: 15px;
+  width: 15px;
+  background-color: #f4d146;
+  border-radius: 50%;
+  list-style: none;
+}
+
+.center ul li:nth-child(1) {
+  -webkit-animation: left-move 2s linear 0s infinite;
+          animation: left-move 2s linear 0s infinite;
+}
+
+.center ul li:nth-child(2) {
+  -webkit-animation: left-move 2s linear .5s infinite;
+          animation: left-move 2s linear .5s infinite;
+}
+
+.center ul li:nth-child(3) {
+  -webkit-animation: left-move 2s linear 1s infinite;
+          animation: left-move 2s linear 1s infinite;
+}
+
+.center ul li:nth-child(4) {
+  -webkit-animation: left-move 2s linear 1.5s infinite;
+          animation: left-move 2s linear 1.5s infinite;
+}
+
+.center ul li:nth-child(5) {
+  -webkit-animation: left-move 2s linear 2s infinite;
+          animation: left-move 2s linear 2s infinite;
+}
+
+@-webkit-keyframes left-move {
+  0% {
+    left: 200px;
+  }
+  100% {
+    left: -50px;
+  }
+}
+
+@keyframes left-move {
+  0% {
+    left: 200px;
+  }
+  100% {
+    left: -50px;
+  }
+}
+
+@-webkit-keyframes eye {
+  0%, 100% {
+    top: 20px;
+    right: 20px;
+  }
+  50% {
+    top: 23px;
+    right: 17px;
+  }
+}
+
+@keyframes eye {
+  0%, 100% {
+    top: 20px;
+    right: 20px;
+  }
+  50% {
+    top: 23px;
+    right: 17px;
+  }
+}
+
+@-webkit-keyframes mouth {
+  0%, 100% {
+    -webkit-clip-path: polygon(0 50%, 100% 100%, 100% 0);
+            clip-path: polygon(0 50%, 100% 100%, 100% 0);
+  }
+  50% {
+    -webkit-clip-path: polygon(0 50%, 100% 50%, 100% 50%);
+            clip-path: polygon(0 50%, 100% 50%, 100% 50%);
+  }
+}
+
+@keyframes mouth {
+  0%, 100% {
+    -webkit-clip-path: polygon(0 50%, 100% 100%, 100% 0);
+            clip-path: polygon(0 50%, 100% 100%, 100% 0);
+  }
+  50% {
+    -webkit-clip-path: polygon(0 50%, 100% 50%, 100% 50%);
+            clip-path: polygon(0 50%, 100% 50%, 100% 50%);
+  }
+}
+/*# sourceMappingURL=style.css.map */

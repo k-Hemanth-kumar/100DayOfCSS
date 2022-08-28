@@ -1,0 +1,127 @@
+*,*::after,*::before{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:linear-gradient(500deg,#765,rgb(40, 80, 120));
+}
+.frame{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background: #16a084;
+    //background: linear-gradient(135deg, #16a084d5, #1cae91b3 48%, #16957b9e 52%),
+    //linear-gradient(45deg, #16a084, #44b59e 48%, #2e937f 52%);
+    //background-color: seagreen;
+    border-radius: 5px;
+    box-shadow: 1px 2px 10px 0 rgba(0,0,0,0.3);
+    color: #fff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    position: relative;
+    height: 18px;
+    width: 18px;
+    //background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    opacity: 0;
+    transform: scale(0);
+    animation: circle 2.5s linear infinite;
+}
+.line{
+    position: absolute;
+    fill: none;
+    stroke-width: 3px;
+    stroke: #fff;
+    stroke-linecap: round;
+    stroke-dasharray: 60 660;
+    stroke-dashoffset: 780;;
+    animation: line 2.5s linear infinite;
+               
+}
+.line1{
+    position: absolute;
+    fill: none;
+    stroke-width: 3px;
+    stroke: #000;
+    stroke-linecap: round;
+    stroke-dasharray: 60 660;
+    stroke-dashoffset: 780;;
+    animation: line-1 2.5s linear infinite;
+               
+}
+.line2{
+    position: absolute;
+    //top: 0%;
+    transform: rotate(90deg);
+    fill: none;
+    stroke-width: 3px;
+    stroke: blueviolet;
+    stroke-linecap: round;
+    stroke-dasharray: 60 660;
+    stroke-dashoffset: 780;;
+    animation: line-2 2.5s linear infinite;
+}
+.line3{
+    position: absolute;
+    //top: 0%;
+    transform: rotate(90deg);
+    fill: none;
+    stroke-width: 3px;
+    stroke: red;
+    stroke-linecap: round;
+    stroke-dasharray: 60 660;
+    stroke-dashoffset: 780;;
+    animation: line-3 2.5s linear infinite;
+}
+@keyframes line-1{
+    from{
+        stroke-dashoffset:780;
+    }
+    to{
+        stroke-dashoffset:70;
+    }
+}
+@keyframes circle {
+    0%,50%{
+        transform: scale(0);
+        opacity: 1;
+    }
+    65%,100%{
+        transform: scale(1.7);
+        opacity: 0;
+    }
+}
+@keyframes line{
+    from{
+        stroke-dashoffset:70;
+    }
+    to{
+        stroke-dashoffset: 780;
+    }
+}
+@keyframes line-2{
+    from{
+        stroke-dashoffset:70;
+    }
+    to{
+        stroke-dashoffset: 780;
+    }
+}
+@keyframes line-3{
+    from{
+        stroke-dashoffset:780;
+    }
+    to{
+        stroke-dashoffset: 70;
+    }
+}

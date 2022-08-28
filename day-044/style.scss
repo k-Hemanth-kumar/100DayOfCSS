@@ -1,0 +1,52 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frame{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 10px 0 rgba(0,0,0,.3);
+    background-color: rgb(42, 34, 34);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    overflow: hidden;
+    cursor: pointer;
+    &:hover .rect{
+        animation-play-state: paused;
+    }
+}
+.rect{
+    position: relative;
+    border: 1px solid #888;
+    background-color: #222;
+}
+@for $i from 1 through 20{
+    .rect-#{$i}{
+        position: absolute;
+        $hw:230 - ($i * 11);
+        $clr:60 + ($i * 10);
+        z-index: $i;
+        height: $hw + px;
+        width: $hw + px;
+        border-color: rgb($clr,$clr,$clr);
+        animation:rotate 2s ease-in-out ($i / 30)+s alternate infinite;
+    }
+}
+@keyframes rotate {
+	from {
+		transform: rotate(0deg) translate3d(0,0,0);
+	}
+	to {
+		transform: rotate(360deg) translate3d(0,0,0);
+	}
+}

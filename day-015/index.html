@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:600">
+    <!-- <script src="main.js"></script> -->
+    <title>Day-015</title>
+</head>
+<body>
+    <div class="frame">
+        <div class="center">
+            <div class="bar"></div>
+            <div class="title">Drop file to upload</div>
+            <div class="dropzone">
+                <div class="content">
+                    <img class="upload" src="https://100dayscss.com/codepen/upload.svg" 
+                    alt="Hemanth" srcset="">
+                    <span class="filename"></span>
+                    <input type="file" class="input" id="">
+                </div>
+            </div>
+            <img src="https://100dayscss.com/codepen/syncing.svg" class="syncing">
+		<img src="https://100dayscss.com/codepen/checkmark.svg" class="done">
+            <div class="upload-btn">Upload file</div>
+        </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      var droppedFiles = false;
+      var fileName = "";
+      var $dropzone = $(".dropzone");
+      var $button = $(".upload-btn");
+      var uploading = false;
+      var $syncing = $(".syncing");
+      var $done = $(".done");
+      var $bar = $(".bar");
+      var timeOut;
+
+    
+      $dropzone
+        .on(
+          "drag dragstart dragend dragover dragenter dragleave drop",
+          function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+          }
+        )
+        .on("dragover dragenter", function () {
+          $dropzone.addClass("is-dragover");
+        })
+        .on("dragleave dragend drop", function () {
+          $dropzone.removeClass("is-dragover");
+        })
+        .on("drop", function (e) {
+          droppedFiles = e.originalEvent.dataTransfer.files;
+          fileName = droppedFiles[0]["name"];
+          $(".filename").html(fileName);
+          $(".dropzone .upload").hide();
+        });
+
+      $button.bind("click", function () {
+        startUpload();
+      });
+
+      $("input:file").change(function () {
+        fileName = $(this)[0].files[0].name;
+        $(".filename").html(fileName);
+        $(".dropzone .upload").hide();
+      });
+
+      function startUpload() {
+        if (!uploading && fileName != "") {
+          uploading = true;
+          $button.html("Uploading...");
+          $dropzone.fadeOut();
+          $syncing.addClass("active");
+          $done.addClass("active");
+          $bar.addClass("active");
+          timeoutID = window.setTimeout(showDone, 3200);
+        }
+      }
+
+      function showDone() {
+        $button.html("Done");
+      }
+    </script>
+
+</body>
+</html>

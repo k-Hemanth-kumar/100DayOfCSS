@@ -1,0 +1,81 @@
+*, *::after, *::before {
+  margin: 0%;
+  box-sizing: border-box;
+  padding: 0%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.frame {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: 3px 4px 12px 0 rgba(0, 0, 0, 0.3);
+  background-color: #e47;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.cube {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  transform-style: preserve-3d;
+  transform: translatez(-100px) rotateX(70deg) rotateZ(45deg);
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
+.cube:hover {
+  transform: translateZ(-100px) rotatex(-120deg) rotateZ(135deg);
+}
+.cube .side {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  opacity: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+.front {
+  transform: rotateY(0deg) translateZ(100px);
+  background: rgb(255, 255, 255);
+}
+
+.back {
+  transform: rotateX(180deg) translateZ(100px);
+  background: rgb(76, 0, 255);
+}
+
+.right {
+  transform: rotateY(90deg) translatez(100px);
+  background-color: rgb(230, 0, 255);
+}
+
+.left {
+  transform: rotateY(-90deg) translateZ(100px);
+  background-color: cornflowerblue;
+}
+
+.top {
+  transform: rotateX(90deg) translateZ(100px);
+  background-color: greenyellow;
+}
+
+.bottom {
+  transform: rotateX(-90deg) translateZ(100px);
+  background-color: rgb(0, 244, 228);
+}/*# sourceMappingURL=style.css.map */

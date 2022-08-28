@@ -1,0 +1,254 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: 3px 5px 10px 0 rgba(0, 0, 0, 0.3);
+  background-color: rgb(42, 34, 34);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+.frame:hover .rect {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+.rect {
+  position: relative;
+  border: 1px solid #888;
+  background-color: #222;
+}
+
+.rect-1 {
+  position: absolute;
+  z-index: 1;
+  height: 219px;
+  width: 219px;
+  border-color: rgb(70, 70, 70);
+  -webkit-animation: rotate 2s ease-in-out 0.0333333333s alternate infinite;
+          animation: rotate 2s ease-in-out 0.0333333333s alternate infinite;
+}
+
+.rect-2 {
+  position: absolute;
+  z-index: 2;
+  height: 208px;
+  width: 208px;
+  border-color: rgb(80, 80, 80);
+  -webkit-animation: rotate 2s ease-in-out 0.0666666667s alternate infinite;
+          animation: rotate 2s ease-in-out 0.0666666667s alternate infinite;
+}
+
+.rect-3 {
+  position: absolute;
+  z-index: 3;
+  height: 197px;
+  width: 197px;
+  border-color: rgb(90, 90, 90);
+  -webkit-animation: rotate 2s ease-in-out 0.1s alternate infinite;
+          animation: rotate 2s ease-in-out 0.1s alternate infinite;
+}
+
+.rect-4 {
+  position: absolute;
+  z-index: 4;
+  height: 186px;
+  width: 186px;
+  border-color: rgb(100, 100, 100);
+  -webkit-animation: rotate 2s ease-in-out 0.1333333333s alternate infinite;
+          animation: rotate 2s ease-in-out 0.1333333333s alternate infinite;
+}
+
+.rect-5 {
+  position: absolute;
+  z-index: 5;
+  height: 175px;
+  width: 175px;
+  border-color: rgb(110, 110, 110);
+  -webkit-animation: rotate 2s ease-in-out 0.1666666667s alternate infinite;
+          animation: rotate 2s ease-in-out 0.1666666667s alternate infinite;
+}
+
+.rect-6 {
+  position: absolute;
+  z-index: 6;
+  height: 164px;
+  width: 164px;
+  border-color: rgb(120, 120, 120);
+  -webkit-animation: rotate 2s ease-in-out 0.2s alternate infinite;
+          animation: rotate 2s ease-in-out 0.2s alternate infinite;
+}
+
+.rect-7 {
+  position: absolute;
+  z-index: 7;
+  height: 153px;
+  width: 153px;
+  border-color: rgb(130, 130, 130);
+  -webkit-animation: rotate 2s ease-in-out 0.2333333333s alternate infinite;
+          animation: rotate 2s ease-in-out 0.2333333333s alternate infinite;
+}
+
+.rect-8 {
+  position: absolute;
+  z-index: 8;
+  height: 142px;
+  width: 142px;
+  border-color: rgb(140, 140, 140);
+  -webkit-animation: rotate 2s ease-in-out 0.2666666667s alternate infinite;
+          animation: rotate 2s ease-in-out 0.2666666667s alternate infinite;
+}
+
+.rect-9 {
+  position: absolute;
+  z-index: 9;
+  height: 131px;
+  width: 131px;
+  border-color: rgb(150, 150, 150);
+  -webkit-animation: rotate 2s ease-in-out 0.3s alternate infinite;
+          animation: rotate 2s ease-in-out 0.3s alternate infinite;
+}
+
+.rect-10 {
+  position: absolute;
+  z-index: 10;
+  height: 120px;
+  width: 120px;
+  border-color: rgb(160, 160, 160);
+  -webkit-animation: rotate 2s ease-in-out 0.3333333333s alternate infinite;
+          animation: rotate 2s ease-in-out 0.3333333333s alternate infinite;
+}
+
+.rect-11 {
+  position: absolute;
+  z-index: 11;
+  height: 109px;
+  width: 109px;
+  border-color: rgb(170, 170, 170);
+  -webkit-animation: rotate 2s ease-in-out 0.3666666667s alternate infinite;
+          animation: rotate 2s ease-in-out 0.3666666667s alternate infinite;
+}
+
+.rect-12 {
+  position: absolute;
+  z-index: 12;
+  height: 98px;
+  width: 98px;
+  border-color: rgb(180, 180, 180);
+  -webkit-animation: rotate 2s ease-in-out 0.4s alternate infinite;
+          animation: rotate 2s ease-in-out 0.4s alternate infinite;
+}
+
+.rect-13 {
+  position: absolute;
+  z-index: 13;
+  height: 87px;
+  width: 87px;
+  border-color: rgb(190, 190, 190);
+  -webkit-animation: rotate 2s ease-in-out 0.4333333333s alternate infinite;
+          animation: rotate 2s ease-in-out 0.4333333333s alternate infinite;
+}
+
+.rect-14 {
+  position: absolute;
+  z-index: 14;
+  height: 76px;
+  width: 76px;
+  border-color: rgb(200, 200, 200);
+  -webkit-animation: rotate 2s ease-in-out 0.4666666667s alternate infinite;
+          animation: rotate 2s ease-in-out 0.4666666667s alternate infinite;
+}
+
+.rect-15 {
+  position: absolute;
+  z-index: 15;
+  height: 65px;
+  width: 65px;
+  border-color: rgb(210, 210, 210);
+  -webkit-animation: rotate 2s ease-in-out 0.5s alternate infinite;
+          animation: rotate 2s ease-in-out 0.5s alternate infinite;
+}
+
+.rect-16 {
+  position: absolute;
+  z-index: 16;
+  height: 54px;
+  width: 54px;
+  border-color: rgb(220, 220, 220);
+  -webkit-animation: rotate 2s ease-in-out 0.5333333333s alternate infinite;
+          animation: rotate 2s ease-in-out 0.5333333333s alternate infinite;
+}
+
+.rect-17 {
+  position: absolute;
+  z-index: 17;
+  height: 43px;
+  width: 43px;
+  border-color: rgb(230, 230, 230);
+  -webkit-animation: rotate 2s ease-in-out 0.5666666667s alternate infinite;
+          animation: rotate 2s ease-in-out 0.5666666667s alternate infinite;
+}
+
+.rect-18 {
+  position: absolute;
+  z-index: 18;
+  height: 32px;
+  width: 32px;
+  border-color: rgb(240, 240, 240);
+  -webkit-animation: rotate 2s ease-in-out 0.6s alternate infinite;
+          animation: rotate 2s ease-in-out 0.6s alternate infinite;
+}
+
+.rect-19 {
+  position: absolute;
+  z-index: 19;
+  height: 21px;
+  width: 21px;
+  border-color: rgb(250, 250, 250);
+  -webkit-animation: rotate 2s ease-in-out 0.6333333333s alternate infinite;
+          animation: rotate 2s ease-in-out 0.6333333333s alternate infinite;
+}
+
+.rect-20 {
+  position: absolute;
+  z-index: 20;
+  height: 10px;
+  width: 10px;
+  border-color: rgb(255, 255, 255);
+  -webkit-animation: rotate 2s ease-in-out 0.6666666667s alternate infinite;
+          animation: rotate 2s ease-in-out 0.6666666667s alternate infinite;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+  to {
+    transform: rotate(360deg) translate3d(0, 0, 0);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+  to {
+    transform: rotate(360deg) translate3d(0, 0, 0);
+  }
+}/*# sourceMappingURL=style.css.map */

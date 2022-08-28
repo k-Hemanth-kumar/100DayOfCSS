@@ -1,0 +1,47 @@
+*,*::after,*::before{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to top left, #44ff00c0,#049aff);
+}
+.frame{
+    height: 400px;
+    width: 400px;
+    background-color:#0a042949 ;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 10px rgba(0,0,0,0.3);
+}
+.bg{
+    fill: none;
+    stroke-width: 5;
+    stroke: #0d00ff;
+}
+.loader{
+    fill: none;
+    stroke-width: 5;
+    stroke: #fff;
+    stroke-dashoffset: 28;
+    stroke-dasharray: 288;
+    stroke-linecap: round;
+    transform-origin: center;
+    animation: loader 4s linear infinite;
+}
+@keyframes loader {
+    0%{
+        stroke-dashoffset: 288*4;
+        transform: rotate(0deg);
+    }
+    100%{
+        stroke-dashoffset: 288*2;
+        transform: rotate(360deg);
+    }
+}

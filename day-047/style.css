@@ -1,0 +1,52 @@
+*, *::after, *::before {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: borderr;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.frame {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  background-color: #8e433c;
+  box-shadow: 3px 5px 12px 0 rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.day-47 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.day-47 input {
+  display: none;
+}
+.day-47 label {
+  box-sizing: border-box;
+  float: left;
+  height: 20px;
+  width: 20px;
+  border: 1px solid mediumslateblue;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.day-47 label:hover {
+  background-color: rgb(0, 212, 215);
+  border-color: none;
+}
+.day-47 input:checked + label {
+  background-color: rgb(0, 0, 0);
+}/*# sourceMappingURL=style.css.map */
