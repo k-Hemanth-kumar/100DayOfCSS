@@ -7,15 +7,13 @@
   margin-top: -200px;
   margin-left: -200px;
   border-radius: 5px;
-  -webkit-box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
-          box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   background: #28404E;
-  background: -webkit-gradient(linear, left top, left bottom, from(#28404E), to(#1c2e38));
   background: linear-gradient(to bottom, #28404E 0%, #1c2e38 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28404e', endColorstr='#1c2e38',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#28404e", endColorstr="#1c2e38",GradientType=0 );
   color: #fff;
-  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -24,8 +22,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .headline {
@@ -35,7 +32,6 @@
   text-align: center;
   line-height: 22px;
 }
-
 .headline .small {
   font-weight: 300;
   font-size: 16px;
@@ -47,18 +43,15 @@
   height: 114px;
   margin: 30px auto 25px auto;
 }
-
 .circle-big svg {
   width: 114px;
   height: 114px;
 }
-
 .circle-big .bg {
   fill: none;
   stroke-width: 10px;
   stroke: #1b2a33;
 }
-
 .circle-big .progress {
   fill: none;
   stroke-width: 10px;
@@ -66,14 +59,11 @@
   stroke-dashoffset: 60;
   stroke-dasharray: 326.56;
   stroke-linecap: round;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-  -webkit-transform-origin: center;
-          transform-origin: center;
+  transform: rotate(-90deg);
+  transform-origin: center;
   -webkit-animation: big 1.5s ease-out;
           animation: big 1.5s ease-out;
 }
-
 .circle-big .text {
   position: absolute;
   width: 100%;
@@ -83,7 +73,6 @@
   line-height: 22px;
   font-size: 24px;
 }
-
 .circle-big .text .small {
   font-size: 14px;
   color: #648192;
@@ -94,12 +83,8 @@
   width: 400px;
   height: 80px;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   gap: 40px;
 }
 
@@ -108,44 +93,36 @@
   width: 80px;
   height: 80px;
 }
-
 .circle-small svg {
   width: 80px;
   height: 80px;
 }
-
 .circle-small .bg {
   fill: none;
   stroke-width: 6px;
   stroke: #1b2a33;
 }
-
 .circle-small .progress {
   fill: none;
   stroke-width: 6px;
   stroke: #27e1ae;
   stroke-dasharray: 232.36;
   stroke-linecap: round;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-  -webkit-transform-origin: center;
-          transform-origin: center;
+  transform: rotate(-90deg);
+  transform-origin: center;
   -webkit-animation: big 1.5s ease-out;
           animation: big 1.5s ease-out;
 }
-
 .circle-small .progress.one {
   stroke-dashoffset: 80;
   -webkit-animation: one 1.5s ease-out;
           animation: one 1.5s ease-out;
 }
-
 .circle-small .progress.two {
   stroke-dashoffset: 140;
   -webkit-animation: two 1.5s ease-out;
           animation: two 1.5s ease-out;
 }
-
 .circle-small .text {
   position: absolute;
   width: 100%;
@@ -155,7 +132,6 @@
   line-height: 16px;
   font-size: 17px;
 }
-
 .circle-small .text .small {
   font-size: 12px;
   color: #648192;
@@ -178,7 +154,6 @@
     stroke-dashoffset: 60;
   }
 }
-
 @-webkit-keyframes one {
   from {
     stroke-dashoffset: 232.36;
@@ -187,7 +162,6 @@
     stroke-dashoffset: 80;
   }
 }
-
 @keyframes one {
   from {
     stroke-dashoffset: 232.36;
@@ -196,7 +170,6 @@
     stroke-dashoffset: 80;
   }
 }
-
 @-webkit-keyframes two {
   from {
     stroke-dashoffset: 232.36;
@@ -205,7 +178,6 @@
     stroke-dashoffset: 140;
   }
 }
-
 @keyframes two {
   from {
     stroke-dashoffset: 232.36;
@@ -213,5 +185,4 @@
   to {
     stroke-dashoffset: 140;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

@@ -49,2110 +49,2110 @@ p {
 }
 
 p:nth-child(1) {
-  --top:159px;
-  --left:48px;
-  --duration:9s;
-  --delay:0s;
+  --top:132px;
+  --left:281px;
+  --duration:5s;
+  --delay:1s;
 }
 
 p:nth-child(2) {
-  --top:280px;
-  --left:223px;
-  --duration:8s;
-  --delay:-3s;
+  --top:123px;
+  --left:73px;
+  --duration:4s;
+  --delay:-1s;
 }
 
 p:nth-child(3) {
-  --top:25px;
-  --left:131px;
-  --duration:6s;
-  --delay:0s;
+  --top:195px;
+  --left:278px;
+  --duration:4s;
+  --delay:-3s;
 }
 
 p:nth-child(4) {
-  --top:124px;
-  --left:230px;
-  --duration:6s;
+  --top:189px;
+  --left:192px;
+  --duration:8s;
   --delay:2s;
 }
 
 p:nth-child(5) {
-  --top:180px;
-  --left:6px;
-  --duration:9s;
+  --top:75px;
+  --left:170px;
+  --duration:7s;
   --delay:-3s;
 }
 
 p:nth-child(6) {
-  --top:29px;
-  --left:172px;
+  --top:54px;
+  --left:17px;
+  --duration:9s;
+  --delay:2s;
+}
+
+p:nth-child(7) {
+  --top:125px;
+  --left:51px;
   --duration:8s;
   --delay:0s;
 }
 
-p:nth-child(7) {
-  --top:276px;
-  --left:185px;
-  --duration:6s;
-  --delay:2s;
-}
-
 p:nth-child(8) {
-  --top:3px;
-  --left:32px;
-  --duration:9s;
-  --delay:1s;
+  --top:300px;
+  --left:50px;
+  --duration:4s;
+  --delay:0s;
 }
 
 p:nth-child(9) {
-  --top:66px;
-  --left:272px;
-  --duration:6s;
+  --top:65px;
+  --left:276px;
+  --duration:8s;
   --delay:0s;
 }
 
 p:nth-child(10) {
-  --top:292px;
-  --left:21px;
-  --duration:7s;
-  --delay:1s;
-}
-
-p:nth-child(11) {
-  --top:73px;
-  --left:149px;
-  --duration:8s;
-  --delay:-3s;
-}
-
-p:nth-child(12) {
-  --top:149px;
-  --left:73px;
-  --duration:5s;
-  --delay:-2s;
-}
-
-p:nth-child(13) {
-  --top:76px;
-  --left:21px;
-  --duration:7s;
-  --delay:1s;
-}
-
-p:nth-child(14) {
-  --top:232px;
-  --left:280px;
-  --duration:7s;
-  --delay:-2s;
-}
-
-p:nth-child(15) {
-  --top:87px;
-  --left:47px;
-  --duration:6s;
-  --delay:-3s;
-}
-
-p:nth-child(16) {
-  --top:178px;
-  --left:126px;
+  --top:124px;
+  --left:285px;
   --duration:6s;
   --delay:2s;
 }
 
+p:nth-child(11) {
+  --top:16px;
+  --left:174px;
+  --duration:8s;
+  --delay:2s;
+}
+
+p:nth-child(12) {
+  --top:243px;
+  --left:199px;
+  --duration:8s;
+  --delay:-1s;
+}
+
+p:nth-child(13) {
+  --top:220px;
+  --left:46px;
+  --duration:6s;
+  --delay:-1s;
+}
+
+p:nth-child(14) {
+  --top:118px;
+  --left:208px;
+  --duration:6s;
+  --delay:2s;
+}
+
+p:nth-child(15) {
+  --top:31px;
+  --left:87px;
+  --duration:9s;
+  --delay:0s;
+}
+
+p:nth-child(16) {
+  --top:111px;
+  --left:138px;
+  --duration:5s;
+  --delay:-1s;
+}
+
 p:nth-child(17) {
-  --top:3px;
-  --left:298px;
+  --top:284px;
+  --left:103px;
+  --duration:7s;
+  --delay:2s;
+}
+
+p:nth-child(18) {
+  --top:254px;
+  --left:115px;
+  --duration:6s;
+  --delay:-1s;
+}
+
+p:nth-child(19) {
+  --top:177px;
+  --left:265px;
   --duration:4s;
   --delay:0s;
 }
 
-p:nth-child(18) {
-  --top:37px;
-  --left:72px;
+p:nth-child(20) {
+  --top:112px;
+  --left:119px;
   --duration:5s;
   --delay:2s;
 }
 
-p:nth-child(19) {
-  --top:160px;
-  --left:78px;
-  --duration:6s;
-  --delay:-2s;
-}
-
-p:nth-child(20) {
-  --top:204px;
-  --left:141px;
-  --duration:6s;
-  --delay:0s;
-}
-
 p:nth-child(21) {
-  --top:233px;
-  --left:19px;
-  --duration:8s;
-  --delay:-2s;
+  --top:201px;
+  --left:20px;
+  --duration:6s;
+  --delay:1s;
 }
 
 p:nth-child(22) {
-  --top:33px;
-  --left:69px;
-  --duration:6s;
-  --delay:2s;
-}
-
-p:nth-child(23) {
-  --top:214px;
-  --left:293px;
-  --duration:8s;
+  --top:116px;
+  --left:89px;
+  --duration:5s;
   --delay:-3s;
 }
 
-p:nth-child(24) {
-  --top:192px;
-  --left:170px;
+p:nth-child(23) {
+  --top:166px;
+  --left:13px;
   --duration:8s;
+  --delay:1s;
+}
+
+p:nth-child(24) {
+  --top:30px;
+  --left:299px;
+  --duration:5s;
   --delay:-2s;
 }
 
 p:nth-child(25) {
-  --top:227px;
-  --left:171px;
-  --duration:8s;
-  --delay:1s;
+  --top:66px;
+  --left:225px;
+  --duration:7s;
+  --delay:-1s;
 }
 
 p:nth-child(26) {
-  --top:80px;
-  --left:207px;
-  --duration:4s;
-  --delay:1s;
+  --top:97px;
+  --left:87px;
+  --duration:7s;
+  --delay:0s;
 }
 
 p:nth-child(27) {
-  --top:106px;
-  --left:127px;
+  --top:1px;
+  --left:194px;
   --duration:6s;
-  --delay:-2s;
-}
-
-p:nth-child(28) {
-  --top:224px;
-  --left:49px;
-  --duration:5s;
-  --delay:-1s;
-}
-
-p:nth-child(29) {
-  --top:158px;
-  --left:89px;
-  --duration:4s;
   --delay:2s;
 }
 
-p:nth-child(30) {
-  --top:6px;
-  --left:139px;
+p:nth-child(28) {
+  --top:273px;
+  --left:218px;
   --duration:9s;
-  --delay:1s;
+  --delay:2s;
+}
+
+p:nth-child(29) {
+  --top:27px;
+  --left:82px;
+  --duration:4s;
+  --delay:-1s;
+}
+
+p:nth-child(30) {
+  --top:73px;
+  --left:37px;
+  --duration:8s;
+  --delay:0s;
 }
 
 p:nth-child(31) {
-  --top:47px;
-  --left:106px;
-  --duration:6s;
-  --delay:-1s;
+  --top:61px;
+  --left:141px;
+  --duration:7s;
+  --delay:2s;
 }
 
 p:nth-child(32) {
-  --top:34px;
-  --left:122px;
-  --duration:8s;
-  --delay:-1s;
+  --top:29px;
+  --left:62px;
+  --duration:9s;
+  --delay:-2s;
 }
 
 p:nth-child(33) {
-  --top:24px;
-  --left:155px;
-  --duration:8s;
+  --top:277px;
+  --left:249px;
+  --duration:9s;
   --delay:-2s;
 }
 
 p:nth-child(34) {
-  --top:218px;
-  --left:48px;
-  --duration:4s;
-  --delay:2s;
+  --top:24px;
+  --left:83px;
+  --duration:5s;
+  --delay:-2s;
 }
 
 p:nth-child(35) {
-  --top:270px;
-  --left:5px;
-  --duration:4s;
+  --top:243px;
+  --left:62px;
+  --duration:5s;
   --delay:0s;
 }
 
 p:nth-child(36) {
-  --top:144px;
-  --left:249px;
-  --duration:5s;
-  --delay:0s;
-}
-
-p:nth-child(37) {
-  --top:289px;
-  --left:60px;
+  --top:247px;
+  --left:144px;
   --duration:5s;
   --delay:-2s;
 }
 
-p:nth-child(38) {
-  --top:3px;
-  --left:285px;
+p:nth-child(37) {
+  --top:162px;
+  --left:204px;
   --duration:7s;
+  --delay:-3s;
+}
+
+p:nth-child(38) {
+  --top:1px;
+  --left:70px;
+  --duration:5s;
   --delay:1s;
 }
 
 p:nth-child(39) {
-  --top:200px;
-  --left:118px;
-  --duration:5s;
-  --delay:-1s;
-}
-
-p:nth-child(40) {
-  --top:257px;
-  --left:138px;
-  --duration:5s;
+  --top:130px;
+  --left:105px;
+  --duration:8s;
   --delay:1s;
 }
 
-p:nth-child(41) {
-  --top:83px;
-  --left:23px;
-  --duration:5s;
-  --delay:0s;
-}
-
-p:nth-child(42) {
-  --top:87px;
-  --left:58px;
-  --duration:9s;
-  --delay:0s;
-}
-
-p:nth-child(43) {
-  --top:292px;
-  --left:9px;
-  --duration:9s;
-  --delay:0s;
-}
-
-p:nth-child(44) {
-  --top:208px;
-  --left:106px;
-  --duration:4s;
+p:nth-child(40) {
+  --top:209px;
+  --left:79px;
+  --duration:7s;
   --delay:2s;
 }
 
-p:nth-child(45) {
-  --top:135px;
-  --left:262px;
+p:nth-child(41) {
+  --top:171px;
+  --left:142px;
   --duration:7s;
+  --delay:-1s;
+}
+
+p:nth-child(42) {
+  --top:32px;
+  --left:124px;
+  --duration:8s;
+  --delay:-3s;
+}
+
+p:nth-child(43) {
+  --top:23px;
+  --left:179px;
+  --duration:5s;
+  --delay:-2s;
+}
+
+p:nth-child(44) {
+  --top:291px;
+  --left:89px;
+  --duration:5s;
+  --delay:-3s;
+}
+
+p:nth-child(45) {
+  --top:280px;
+  --left:274px;
+  --duration:4s;
   --delay:1s;
 }
 
 p:nth-child(46) {
-  --top:245px;
-  --left:124px;
-  --duration:4s;
-  --delay:-2s;
+  --top:77px;
+  --left:59px;
+  --duration:5s;
+  --delay:-1s;
 }
 
 p:nth-child(47) {
-  --top:148px;
-  --left:196px;
-  --duration:7s;
+  --top:171px;
+  --left:276px;
+  --duration:9s;
   --delay:-3s;
 }
 
 p:nth-child(48) {
-  --top:258px;
-  --left:40px;
-  --duration:8s;
-  --delay:2s;
+  --top:71px;
+  --left:227px;
+  --duration:5s;
+  --delay:1s;
 }
 
 p:nth-child(49) {
-  --top:252px;
-  --left:194px;
+  --top:244px;
+  --left:136px;
   --duration:8s;
-  --delay:-1s;
+  --delay:1s;
 }
 
 p:nth-child(50) {
-  --top:30px;
-  --left:148px;
-  --duration:6s;
-  --delay:0s;
+  --top:294px;
+  --left:240px;
+  --duration:5s;
+  --delay:-2s;
 }
 
 p:nth-child(51) {
-  --top:297px;
-  --left:259px;
-  --duration:6s;
+  --top:216px;
+  --left:159px;
+  --duration:9s;
   --delay:-3s;
 }
 
 p:nth-child(52) {
-  --top:25px;
-  --left:168px;
-  --duration:9s;
-  --delay:-2s;
+  --top:110px;
+  --left:75px;
+  --duration:4s;
+  --delay:2s;
 }
 
 p:nth-child(53) {
-  --top:58px;
-  --left:32px;
-  --duration:6s;
-  --delay:-1s;
+  --top:194px;
+  --left:24px;
+  --duration:8s;
+  --delay:0s;
 }
 
 p:nth-child(54) {
-  --top:101px;
-  --left:281px;
-  --duration:8s;
-  --delay:1s;
+  --top:75px;
+  --left:288px;
+  --duration:9s;
+  --delay:-1s;
 }
 
 p:nth-child(55) {
-  --top:241px;
-  --left:68px;
-  --duration:7s;
-  --delay:-2s;
+  --top:38px;
+  --left:147px;
+  --duration:8s;
+  --delay:2s;
 }
 
 p:nth-child(56) {
-  --top:290px;
-  --left:173px;
-  --duration:9s;
-  --delay:-2s;
+  --top:227px;
+  --left:101px;
+  --duration:5s;
+  --delay:2s;
 }
 
 p:nth-child(57) {
-  --top:286px;
-  --left:294px;
-  --duration:8s;
+  --top:169px;
+  --left:275px;
+  --duration:6s;
   --delay:1s;
 }
 
 p:nth-child(58) {
-  --top:145px;
-  --left:106px;
+  --top:72px;
+  --left:4px;
   --duration:7s;
-  --delay:-1s;
+  --delay:0s;
 }
 
 p:nth-child(59) {
-  --top:232px;
-  --left:167px;
-  --duration:7s;
-  --delay:2s;
+  --top:74px;
+  --left:168px;
+  --duration:8s;
+  --delay:1s;
 }
 
 p:nth-child(60) {
-  --top:90px;
-  --left:194px;
-  --duration:5s;
-  --delay:2s;
+  --top:97px;
+  --left:24px;
+  --duration:7s;
+  --delay:-2s;
 }
 
 p:nth-child(61) {
-  --top:196px;
-  --left:80px;
-  --duration:8s;
-  --delay:-3s;
+  --top:240px;
+  --left:17px;
+  --duration:4s;
+  --delay:-1s;
 }
 
 p:nth-child(62) {
-  --top:195px;
-  --left:199px;
-  --duration:8s;
+  --top:191px;
+  --left:198px;
+  --duration:5s;
   --delay:-2s;
 }
 
 p:nth-child(63) {
-  --top:285px;
-  --left:130px;
+  --top:69px;
+  --left:237px;
   --duration:4s;
-  --delay:2s;
+  --delay:-3s;
 }
 
 p:nth-child(64) {
-  --top:270px;
-  --left:211px;
-  --duration:7s;
-  --delay:-2s;
-}
-
-p:nth-child(65) {
-  --top:28px;
-  --left:1px;
-  --duration:8s;
-  --delay:-3s;
-}
-
-p:nth-child(66) {
-  --top:179px;
-  --left:208px;
-  --duration:4s;
-  --delay:-2s;
-}
-
-p:nth-child(67) {
-  --top:142px;
-  --left:43px;
-  --duration:4s;
-  --delay:1s;
-}
-
-p:nth-child(68) {
-  --top:92px;
-  --left:75px;
-  --duration:8s;
-  --delay:-2s;
-}
-
-p:nth-child(69) {
-  --top:250px;
-  --left:282px;
+  --top:81px;
+  --left:137px;
   --duration:7s;
   --delay:2s;
 }
 
-p:nth-child(70) {
-  --top:64px;
-  --left:264px;
-  --duration:5s;
+p:nth-child(65) {
+  --top:139px;
+  --left:255px;
+  --duration:8s;
   --delay:0s;
 }
 
-p:nth-child(71) {
-  --top:83px;
-  --left:83px;
-  --duration:4s;
+p:nth-child(66) {
+  --top:231px;
+  --left:177px;
+  --duration:8s;
   --delay:-3s;
 }
 
-p:nth-child(72) {
-  --top:175px;
-  --left:272px;
-  --duration:6s;
-  --delay:1s;
-}
-
-p:nth-child(73) {
-  --top:62px;
-  --left:162px;
+p:nth-child(67) {
+  --top:76px;
+  --left:164px;
   --duration:9s;
   --delay:-2s;
 }
 
-p:nth-child(74) {
-  --top:203px;
-  --left:245px;
-  --duration:9s;
+p:nth-child(68) {
+  --top:266px;
+  --left:142px;
+  --duration:5s;
+  --delay:1s;
+}
+
+p:nth-child(69) {
+  --top:241px;
+  --left:165px;
+  --duration:4s;
+  --delay:1s;
+}
+
+p:nth-child(70) {
+  --top:160px;
+  --left:215px;
+  --duration:6s;
   --delay:-3s;
 }
 
+p:nth-child(71) {
+  --top:112px;
+  --left:233px;
+  --duration:8s;
+  --delay:2s;
+}
+
+p:nth-child(72) {
+  --top:266px;
+  --left:260px;
+  --duration:4s;
+  --delay:2s;
+}
+
+p:nth-child(73) {
+  --top:222px;
+  --left:5px;
+  --duration:9s;
+  --delay:0s;
+}
+
+p:nth-child(74) {
+  --top:218px;
+  --left:151px;
+  --duration:6s;
+  --delay:-1s;
+}
+
 p:nth-child(75) {
-  --top:5px;
-  --left:71px;
+  --top:88px;
+  --left:259px;
+  --duration:5s;
+  --delay:2s;
+}
+
+p:nth-child(76) {
+  --top:113px;
+  --left:245px;
+  --duration:6s;
+  --delay:-1s;
+}
+
+p:nth-child(77) {
+  --top:205px;
+  --left:213px;
   --duration:7s;
   --delay:-1s;
 }
 
-p:nth-child(76) {
-  --top:180px;
-  --left:60px;
-  --duration:9s;
-  --delay:2s;
-}
-
-p:nth-child(77) {
-  --top:259px;
-  --left:240px;
-  --duration:9s;
-  --delay:-2s;
-}
-
 p:nth-child(78) {
-  --top:10px;
-  --left:265px;
-  --duration:5s;
+  --top:111px;
+  --left:254px;
+  --duration:9s;
   --delay:-1s;
 }
 
 p:nth-child(79) {
-  --top:133px;
-  --left:158px;
-  --duration:8s;
+  --top:227px;
+  --left:89px;
+  --duration:5s;
   --delay:-2s;
 }
 
 p:nth-child(80) {
-  --top:83px;
-  --left:261px;
-  --duration:5s;
+  --top:112px;
+  --left:239px;
+  --duration:8s;
   --delay:-1s;
 }
 
 p:nth-child(81) {
-  --top:295px;
-  --left:178px;
-  --duration:7s;
-  --delay:-3s;
+  --top:100px;
+  --left:281px;
+  --duration:6s;
+  --delay:1s;
 }
 
 p:nth-child(82) {
-  --top:259px;
-  --left:76px;
-  --duration:7s;
+  --top:226px;
+  --left:42px;
+  --duration:4s;
   --delay:-1s;
 }
 
 p:nth-child(83) {
-  --top:276px;
-  --left:66px;
-  --duration:7s;
-  --delay:1s;
+  --top:55px;
+  --left:84px;
+  --duration:5s;
+  --delay:-3s;
 }
 
 p:nth-child(84) {
-  --top:75px;
-  --left:124px;
-  --duration:5s;
-  --delay:0s;
+  --top:39px;
+  --left:289px;
+  --duration:7s;
+  --delay:-3s;
 }
 
 p:nth-child(85) {
-  --top:9px;
-  --left:74px;
-  --duration:8s;
-  --delay:-2s;
+  --top:71px;
+  --left:151px;
+  --duration:5s;
+  --delay:2s;
 }
 
 p:nth-child(86) {
-  --top:195px;
-  --left:57px;
-  --duration:6s;
-  --delay:1s;
+  --top:287px;
+  --left:272px;
+  --duration:4s;
+  --delay:0s;
 }
 
 p:nth-child(87) {
-  --top:219px;
-  --left:104px;
-  --duration:6s;
-  --delay:-1s;
+  --top:299px;
+  --left:182px;
+  --duration:8s;
+  --delay:-3s;
 }
 
 p:nth-child(88) {
-  --top:143px;
-  --left:248px;
-  --duration:8s;
-  --delay:2s;
-}
-
-p:nth-child(89) {
-  --top:134px;
-  --left:155px;
-  --duration:5s;
-  --delay:0s;
-}
-
-p:nth-child(90) {
-  --top:28px;
-  --left:3px;
-  --duration:4s;
-  --delay:0s;
-}
-
-p:nth-child(91) {
-  --top:200px;
-  --left:74px;
-  --duration:8s;
+  --top:210px;
+  --left:262px;
+  --duration:7s;
   --delay:-2s;
 }
 
-p:nth-child(92) {
-  --top:133px;
-  --left:260px;
-  --duration:9s;
-  --delay:2s;
+p:nth-child(89) {
+  --top:299px;
+  --left:129px;
+  --duration:4s;
+  --delay:-3s;
 }
 
-p:nth-child(93) {
-  --top:104px;
-  --left:68px;
+p:nth-child(90) {
+  --top:110px;
+  --left:162px;
+  --duration:6s;
+  --delay:-2s;
+}
+
+p:nth-child(91) {
+  --top:284px;
+  --left:53px;
+  --duration:9s;
+  --delay:0s;
+}
+
+p:nth-child(92) {
+  --top:241px;
+  --left:11px;
   --duration:8s;
   --delay:0s;
 }
 
+p:nth-child(93) {
+  --top:276px;
+  --left:126px;
+  --duration:8s;
+  --delay:-3s;
+}
+
 p:nth-child(94) {
-  --top:146px;
-  --left:188px;
-  --duration:4s;
+  --top:204px;
+  --left:273px;
+  --duration:9s;
   --delay:-3s;
 }
 
 p:nth-child(95) {
-  --top:161px;
-  --left:119px;
-  --duration:8s;
+  --top:34px;
+  --left:265px;
+  --duration:6s;
   --delay:-1s;
 }
 
 p:nth-child(96) {
-  --top:90px;
-  --left:55px;
-  --duration:8s;
-  --delay:-1s;
-}
-
-p:nth-child(97) {
-  --top:268px;
-  --left:275px;
-  --duration:4s;
-  --delay:0s;
-}
-
-p:nth-child(98) {
-  --top:300px;
-  --left:284px;
-  --duration:7s;
-  --delay:2s;
-}
-
-p:nth-child(99) {
-  --top:7px;
-  --left:210px;
-  --duration:9s;
-  --delay:-2s;
-}
-
-p:nth-child(100) {
-  --top:196px;
-  --left:33px;
-  --duration:9s;
-  --delay:-2s;
-}
-
-p:nth-child(101) {
-  --top:52px;
-  --left:284px;
-  --duration:9s;
-  --delay:2s;
-}
-
-p:nth-child(102) {
-  --top:56px;
-  --left:239px;
-  --duration:6s;
-  --delay:-1s;
-}
-
-p:nth-child(103) {
-  --top:278px;
-  --left:256px;
-  --duration:5s;
-  --delay:2s;
-}
-
-p:nth-child(104) {
-  --top:124px;
-  --left:140px;
-  --duration:9s;
-  --delay:-3s;
-}
-
-p:nth-child(105) {
-  --top:224px;
-  --left:222px;
-  --duration:5s;
-  --delay:1s;
-}
-
-p:nth-child(106) {
-  --top:165px;
-  --left:271px;
-  --duration:7s;
-  --delay:-3s;
-}
-
-p:nth-child(107) {
-  --top:42px;
-  --left:56px;
-  --duration:4s;
-  --delay:2s;
-}
-
-p:nth-child(108) {
-  --top:111px;
-  --left:208px;
-  --duration:7s;
-  --delay:-2s;
-}
-
-p:nth-child(109) {
-  --top:141px;
-  --left:54px;
-  --duration:9s;
-  --delay:-2s;
-}
-
-p:nth-child(110) {
-  --top:202px;
-  --left:286px;
-  --duration:5s;
-  --delay:0s;
-}
-
-p:nth-child(111) {
-  --top:173px;
-  --left:69px;
-  --duration:5s;
-  --delay:2s;
-}
-
-p:nth-child(112) {
-  --top:87px;
-  --left:69px;
-  --duration:8s;
-  --delay:0s;
-}
-
-p:nth-child(113) {
-  --top:184px;
-  --left:125px;
-  --duration:8s;
-  --delay:0s;
-}
-
-p:nth-child(114) {
-  --top:288px;
-  --left:183px;
-  --duration:4s;
-  --delay:1s;
-}
-
-p:nth-child(115) {
-  --top:35px;
-  --left:72px;
-  --duration:6s;
-  --delay:-1s;
-}
-
-p:nth-child(116) {
-  --top:283px;
-  --left:89px;
-  --duration:7s;
-  --delay:-1s;
-}
-
-p:nth-child(117) {
-  --top:269px;
-  --left:193px;
-  --duration:6s;
-  --delay:0s;
-}
-
-p:nth-child(118) {
-  --top:223px;
-  --left:135px;
-  --duration:9s;
-  --delay:-2s;
-}
-
-p:nth-child(119) {
-  --top:30px;
-  --left:200px;
-  --duration:4s;
-  --delay:-3s;
-}
-
-p:nth-child(120) {
-  --top:108px;
-  --left:226px;
-  --duration:9s;
-  --delay:-3s;
-}
-
-p:nth-child(121) {
-  --top:245px;
-  --left:20px;
-  --duration:7s;
-  --delay:-3s;
-}
-
-p:nth-child(122) {
-  --top:164px;
-  --left:217px;
-  --duration:8s;
-  --delay:1s;
-}
-
-p:nth-child(123) {
-  --top:78px;
-  --left:69px;
-  --duration:7s;
-  --delay:-2s;
-}
-
-p:nth-child(124) {
-  --top:270px;
-  --left:253px;
-  --duration:5s;
-  --delay:-2s;
-}
-
-p:nth-child(125) {
-  --top:52px;
-  --left:123px;
-  --duration:6s;
-  --delay:1s;
-}
-
-p:nth-child(126) {
-  --top:167px;
-  --left:46px;
-  --duration:5s;
-  --delay:1s;
-}
-
-p:nth-child(127) {
-  --top:279px;
-  --left:161px;
-  --duration:9s;
-  --delay:-1s;
-}
-
-p:nth-child(128) {
-  --top:35px;
-  --left:19px;
-  --duration:7s;
-  --delay:2s;
-}
-
-p:nth-child(129) {
-  --top:287px;
-  --left:237px;
-  --duration:9s;
-  --delay:0s;
-}
-
-p:nth-child(130) {
-  --top:276px;
-  --left:112px;
-  --duration:4s;
-  --delay:-2s;
-}
-
-p:nth-child(131) {
-  --top:285px;
-  --left:99px;
-  --duration:8s;
-  --delay:2s;
-}
-
-p:nth-child(132) {
-  --top:113px;
-  --left:13px;
-  --duration:7s;
-  --delay:-3s;
-}
-
-p:nth-child(133) {
-  --top:83px;
-  --left:118px;
-  --duration:4s;
-  --delay:2s;
-}
-
-p:nth-child(134) {
-  --top:288px;
-  --left:120px;
-  --duration:8s;
-  --delay:-3s;
-}
-
-p:nth-child(135) {
-  --top:299px;
-  --left:74px;
-  --duration:4s;
-  --delay:0s;
-}
-
-p:nth-child(136) {
-  --top:169px;
-  --left:129px;
-  --duration:9s;
-  --delay:2s;
-}
-
-p:nth-child(137) {
-  --top:140px;
-  --left:119px;
-  --duration:5s;
-  --delay:0s;
-}
-
-p:nth-child(138) {
-  --top:123px;
-  --left:126px;
-  --duration:9s;
-  --delay:2s;
-}
-
-p:nth-child(139) {
-  --top:243px;
-  --left:186px;
-  --duration:5s;
-  --delay:1s;
-}
-
-p:nth-child(140) {
-  --top:106px;
-  --left:267px;
-  --duration:8s;
-  --delay:-1s;
-}
-
-p:nth-child(141) {
-  --top:158px;
-  --left:224px;
-  --duration:7s;
-  --delay:0s;
-}
-
-p:nth-child(142) {
-  --top:19px;
-  --left:267px;
-  --duration:9s;
-  --delay:2s;
-}
-
-p:nth-child(143) {
-  --top:57px;
-  --left:137px;
-  --duration:6s;
-  --delay:-3s;
-}
-
-p:nth-child(144) {
   --top:116px;
-  --left:1px;
-  --duration:7s;
-  --delay:2s;
-}
-
-p:nth-child(145) {
-  --top:156px;
-  --left:57px;
-  --duration:9s;
-  --delay:-1s;
-}
-
-p:nth-child(146) {
-  --top:184px;
-  --left:206px;
-  --duration:7s;
-  --delay:-2s;
-}
-
-p:nth-child(147) {
-  --top:139px;
-  --left:169px;
-  --duration:7s;
-  --delay:2s;
-}
-
-p:nth-child(148) {
-  --top:282px;
-  --left:170px;
-  --duration:4s;
-  --delay:-1s;
-}
-
-p:nth-child(149) {
-  --top:225px;
-  --left:270px;
-  --duration:5s;
-  --delay:-3s;
-}
-
-p:nth-child(150) {
-  --top:261px;
-  --left:122px;
-  --duration:9s;
-  --delay:-3s;
-}
-
-p:nth-child(151) {
-  --top:53px;
-  --left:124px;
-  --duration:7s;
-  --delay:-2s;
-}
-
-p:nth-child(152) {
-  --top:291px;
-  --left:43px;
-  --duration:7s;
-  --delay:2s;
-}
-
-p:nth-child(153) {
-  --top:263px;
   --left:37px;
   --duration:8s;
   --delay:-1s;
 }
 
-p:nth-child(154) {
-  --top:281px;
-  --left:300px;
-  --duration:4s;
-  --delay:2s;
-}
-
-p:nth-child(155) {
-  --top:120px;
-  --left:198px;
-  --duration:8s;
-  --delay:-3s;
-}
-
-p:nth-child(156) {
-  --top:24px;
-  --left:173px;
-  --duration:6s;
-  --delay:1s;
-}
-
-p:nth-child(157) {
-  --top:279px;
-  --left:49px;
-  --duration:7s;
-  --delay:2s;
-}
-
-p:nth-child(158) {
-  --top:275px;
-  --left:130px;
-  --duration:5s;
-  --delay:0s;
-}
-
-p:nth-child(159) {
-  --top:243px;
-  --left:25px;
-  --duration:6s;
-  --delay:1s;
-}
-
-p:nth-child(160) {
-  --top:146px;
-  --left:211px;
-  --duration:4s;
-  --delay:-2s;
-}
-
-p:nth-child(161) {
-  --top:13px;
-  --left:252px;
-  --duration:9s;
-  --delay:-3s;
-}
-
-p:nth-child(162) {
-  --top:61px;
-  --left:174px;
-  --duration:8s;
-  --delay:-3s;
-}
-
-p:nth-child(163) {
-  --top:192px;
-  --left:35px;
-  --duration:7s;
-  --delay:-1s;
-}
-
-p:nth-child(164) {
-  --top:225px;
-  --left:128px;
-  --duration:9s;
-  --delay:2s;
-}
-
-p:nth-child(165) {
-  --top:299px;
-  --left:195px;
-  --duration:7s;
-  --delay:1s;
-}
-
-p:nth-child(166) {
-  --top:167px;
-  --left:229px;
-  --duration:4s;
-  --delay:-1s;
-}
-
-p:nth-child(167) {
-  --top:73px;
-  --left:78px;
-  --duration:6s;
-  --delay:1s;
-}
-
-p:nth-child(168) {
-  --top:85px;
-  --left:81px;
-  --duration:8s;
-  --delay:0s;
-}
-
-p:nth-child(169) {
-  --top:273px;
-  --left:204px;
-  --duration:9s;
-  --delay:-1s;
-}
-
-p:nth-child(170) {
-  --top:22px;
-  --left:55px;
-  --duration:9s;
-  --delay:0s;
-}
-
-p:nth-child(171) {
-  --top:110px;
-  --left:129px;
-  --duration:7s;
-  --delay:1s;
-}
-
-p:nth-child(172) {
-  --top:249px;
-  --left:62px;
-  --duration:7s;
-  --delay:-1s;
-}
-
-p:nth-child(173) {
-  --top:240px;
-  --left:95px;
-  --duration:5s;
-  --delay:-1s;
-}
-
-p:nth-child(174) {
-  --top:93px;
-  --left:254px;
-  --duration:6s;
-  --delay:2s;
-}
-
-p:nth-child(175) {
-  --top:34px;
-  --left:156px;
-  --duration:7s;
-  --delay:-2s;
-}
-
-p:nth-child(176) {
-  --top:103px;
-  --left:226px;
-  --duration:7s;
-  --delay:2s;
-}
-
-p:nth-child(177) {
-  --top:189px;
-  --left:237px;
-  --duration:7s;
-  --delay:1s;
-}
-
-p:nth-child(178) {
-  --top:118px;
-  --left:79px;
-  --duration:5s;
-  --delay:0s;
-}
-
-p:nth-child(179) {
-  --top:31px;
-  --left:223px;
-  --duration:8s;
-  --delay:-1s;
-}
-
-p:nth-child(180) {
-  --top:178px;
-  --left:17px;
-  --duration:5s;
-  --delay:1s;
-}
-
-p:nth-child(181) {
-  --top:257px;
-  --left:5px;
-  --duration:8s;
-  --delay:-1s;
-}
-
-p:nth-child(182) {
-  --top:102px;
-  --left:148px;
-  --duration:9s;
-  --delay:0s;
-}
-
-p:nth-child(183) {
-  --top:31px;
-  --left:29px;
-  --duration:4s;
-  --delay:-1s;
-}
-
-p:nth-child(184) {
-  --top:138px;
-  --left:140px;
-  --duration:8s;
-  --delay:-2s;
-}
-
-p:nth-child(185) {
-  --top:72px;
-  --left:104px;
-  --duration:4s;
-  --delay:1s;
-}
-
-p:nth-child(186) {
-  --top:56px;
-  --left:200px;
-  --duration:7s;
-  --delay:1s;
-}
-
-p:nth-child(187) {
-  --top:210px;
-  --left:20px;
-  --duration:5s;
-  --delay:-3s;
-}
-
-p:nth-child(188) {
-  --top:243px;
-  --left:163px;
-  --duration:9s;
-  --delay:-1s;
-}
-
-p:nth-child(189) {
-  --top:104px;
-  --left:234px;
-  --duration:6s;
-  --delay:-1s;
-}
-
-p:nth-child(190) {
-  --top:202px;
-  --left:32px;
-  --duration:4s;
-  --delay:-3s;
-}
-
-p:nth-child(191) {
-  --top:235px;
-  --left:182px;
-  --duration:4s;
-  --delay:1s;
-}
-
-p:nth-child(192) {
-  --top:131px;
-  --left:47px;
-  --duration:6s;
-  --delay:-3s;
-}
-
-p:nth-child(193) {
-  --top:1px;
-  --left:199px;
-  --duration:9s;
-  --delay:-1s;
-}
-
-p:nth-child(194) {
-  --top:168px;
-  --left:192px;
-  --duration:8s;
-  --delay:-2s;
-}
-
-p:nth-child(195) {
-  --top:197px;
-  --left:293px;
-  --duration:9s;
-  --delay:-2s;
-}
-
-p:nth-child(196) {
-  --top:196px;
-  --left:132px;
-  --duration:7s;
-  --delay:-2s;
-}
-
-p:nth-child(197) {
-  --top:117px;
-  --left:104px;
-  --duration:7s;
-  --delay:1s;
-}
-
-p:nth-child(198) {
-  --top:176px;
-  --left:266px;
-  --duration:8s;
-  --delay:0s;
-}
-
-p:nth-child(199) {
-  --top:172px;
-  --left:290px;
-  --duration:8s;
-  --delay:-3s;
-}
-
-p:nth-child(200) {
-  --top:122px;
-  --left:40px;
-  --duration:9s;
-  --delay:2s;
-}
-
-p:nth-child(201) {
-  --top:242px;
-  --left:196px;
-  --duration:9s;
-  --delay:0s;
-}
-
-p:nth-child(202) {
-  --top:291px;
-  --left:63px;
-  --duration:6s;
-  --delay:1s;
-}
-
-p:nth-child(203) {
-  --top:283px;
-  --left:254px;
-  --duration:6s;
-  --delay:-3s;
-}
-
-p:nth-child(204) {
-  --top:227px;
-  --left:164px;
-  --duration:4s;
-  --delay:1s;
-}
-
-p:nth-child(205) {
-  --top:31px;
-  --left:185px;
-  --duration:7s;
-  --delay:-2s;
-}
-
-p:nth-child(206) {
-  --top:263px;
-  --left:241px;
-  --duration:5s;
-  --delay:-2s;
-}
-
-p:nth-child(207) {
-  --top:252px;
-  --left:238px;
-  --duration:5s;
-  --delay:-3s;
-}
-
-p:nth-child(208) {
-  --top:4px;
-  --left:125px;
-  --duration:8s;
-  --delay:-2s;
-}
-
-p:nth-child(209) {
-  --top:202px;
-  --left:34px;
-  --duration:9s;
-  --delay:-1s;
-}
-
-p:nth-child(210) {
-  --top:147px;
-  --left:178px;
-  --duration:8s;
-  --delay:0s;
-}
-
-p:nth-child(211) {
-  --top:77px;
-  --left:229px;
-  --duration:9s;
-  --delay:-3s;
-}
-
-p:nth-child(212) {
-  --top:128px;
-  --left:269px;
-  --duration:6s;
-  --delay:2s;
-}
-
-p:nth-child(213) {
-  --top:200px;
-  --left:102px;
-  --duration:9s;
-  --delay:-3s;
-}
-
-p:nth-child(214) {
-  --top:64px;
-  --left:293px;
-  --duration:9s;
-  --delay:-2s;
-}
-
-p:nth-child(215) {
-  --top:265px;
-  --left:106px;
-  --duration:4s;
-  --delay:0s;
-}
-
-p:nth-child(216) {
-  --top:253px;
-  --left:220px;
-  --duration:8s;
-  --delay:-1s;
-}
-
-p:nth-child(217) {
-  --top:271px;
-  --left:163px;
-  --duration:9s;
-  --delay:2s;
-}
-
-p:nth-child(218) {
-  --top:282px;
-  --left:279px;
-  --duration:8s;
-  --delay:0s;
-}
-
-p:nth-child(219) {
-  --top:260px;
-  --left:291px;
-  --duration:5s;
-  --delay:-2s;
-}
-
-p:nth-child(220) {
-  --top:238px;
-  --left:180px;
-  --duration:5s;
-  --delay:1s;
-}
-
-p:nth-child(221) {
-  --top:194px;
-  --left:300px;
-  --duration:4s;
-  --delay:1s;
-}
-
-p:nth-child(222) {
-  --top:178px;
-  --left:251px;
-  --duration:9s;
-  --delay:-2s;
-}
-
-p:nth-child(223) {
-  --top:116px;
-  --left:171px;
-  --duration:5s;
-  --delay:-3s;
-}
-
-p:nth-child(224) {
-  --top:270px;
-  --left:126px;
-  --duration:4s;
-  --delay:0s;
-}
-
-p:nth-child(225) {
-  --top:245px;
-  --left:276px;
-  --duration:4s;
-  --delay:-3s;
-}
-
-p:nth-child(226) {
-  --top:289px;
-  --left:29px;
-  --duration:9s;
-  --delay:-2s;
-}
-
-p:nth-child(227) {
-  --top:126px;
-  --left:283px;
-  --duration:8s;
-  --delay:-2s;
-}
-
-p:nth-child(228) {
-  --top:276px;
-  --left:183px;
-  --duration:4s;
-  --delay:2s;
-}
-
-p:nth-child(229) {
-  --top:257px;
-  --left:251px;
-  --duration:4s;
-  --delay:-1s;
-}
-
-p:nth-child(230) {
-  --top:23px;
-  --left:215px;
-  --duration:5s;
-  --delay:2s;
-}
-
-p:nth-child(231) {
+p:nth-child(97) {
   --top:174px;
-  --left:154px;
-  --duration:8s;
-  --delay:-2s;
-}
-
-p:nth-child(232) {
-  --top:29px;
-  --left:234px;
-  --duration:6s;
-  --delay:0s;
-}
-
-p:nth-child(233) {
-  --top:222px;
-  --left:290px;
-  --duration:9s;
-  --delay:-2s;
-}
-
-p:nth-child(234) {
-  --top:93px;
-  --left:50px;
-  --duration:6s;
-  --delay:2s;
-}
-
-p:nth-child(235) {
-  --top:275px;
-  --left:138px;
-  --duration:4s;
-  --delay:1s;
-}
-
-p:nth-child(236) {
-  --top:111px;
-  --left:231px;
+  --left:267px;
   --duration:7s;
-  --delay:2s;
-}
-
-p:nth-child(237) {
-  --top:50px;
-  --left:53px;
-  --duration:6s;
-  --delay:1s;
-}
-
-p:nth-child(238) {
-  --top:114px;
-  --left:185px;
-  --duration:9s;
-  --delay:-3s;
-}
-
-p:nth-child(239) {
-  --top:20px;
-  --left:3px;
-  --duration:4s;
-  --delay:-2s;
-}
-
-p:nth-child(240) {
-  --top:188px;
-  --left:212px;
-  --duration:5s;
   --delay:-1s;
 }
 
-p:nth-child(241) {
-  --top:114px;
-  --left:258px;
-  --duration:5s;
-  --delay:-1s;
-}
-
-p:nth-child(242) {
-  --top:64px;
-  --left:129px;
-  --duration:8s;
-  --delay:2s;
-}
-
-p:nth-child(243) {
-  --top:45px;
-  --left:193px;
-  --duration:8s;
-  --delay:-2s;
-}
-
-p:nth-child(244) {
-  --top:132px;
-  --left:147px;
+p:nth-child(98) {
+  --top:102px;
+  --left:32px;
   --duration:6s;
-  --delay:2s;
-}
-
-p:nth-child(245) {
-  --top:106px;
-  --left:190px;
-  --duration:4s;
-  --delay:0s;
-}
-
-p:nth-child(246) {
-  --top:287px;
-  --left:15px;
-  --duration:5s;
   --delay:-2s;
 }
 
-p:nth-child(247) {
-  --top:84px;
-  --left:215px;
+p:nth-child(99) {
+  --top:235px;
+  --left:161px;
   --duration:4s;
-  --delay:-3s;
+  --delay:-2s;
 }
 
-p:nth-child(248) {
-  --top:267px;
-  --left:244px;
-  --duration:9s;
-  --delay:1s;
-}
-
-p:nth-child(249) {
-  --top:144px;
+p:nth-child(100) {
+  --top:108px;
   --left:136px;
   --duration:7s;
   --delay:-1s;
 }
 
-p:nth-child(250) {
-  --top:282px;
-  --left:282px;
-  --duration:5s;
-  --delay:1s;
-}
-
-p:nth-child(251) {
-  --top:141px;
-  --left:300px;
-  --duration:9s;
-  --delay:-1s;
-}
-
-p:nth-child(252) {
-  --top:94px;
-  --left:249px;
-  --duration:9s;
-  --delay:-2s;
-}
-
-p:nth-child(253) {
-  --top:184px;
-  --left:84px;
-  --duration:7s;
-  --delay:-3s;
-}
-
-p:nth-child(254) {
-  --top:131px;
-  --left:185px;
-  --duration:4s;
-  --delay:-1s;
-}
-
-p:nth-child(255) {
-  --top:83px;
-  --left:11px;
-  --duration:6s;
-  --delay:-2s;
-}
-
-p:nth-child(256) {
-  --top:276px;
-  --left:251px;
-  --duration:5s;
-  --delay:-3s;
-}
-
-p:nth-child(257) {
-  --top:177px;
-  --left:228px;
-  --duration:4s;
-  --delay:1s;
-}
-
-p:nth-child(258) {
-  --top:188px;
-  --left:264px;
-  --duration:6s;
-  --delay:-2s;
-}
-
-p:nth-child(259) {
-  --top:25px;
-  --left:25px;
+p:nth-child(101) {
+  --top:80px;
+  --left:154px;
   --duration:8s;
   --delay:1s;
 }
 
-p:nth-child(260) {
-  --top:283px;
-  --left:296px;
-  --duration:7s;
+p:nth-child(102) {
+  --top:131px;
+  --left:129px;
+  --duration:6s;
+  --delay:2s;
+}
+
+p:nth-child(103) {
+  --top:92px;
+  --left:152px;
+  --duration:8s;
+  --delay:2s;
+}
+
+p:nth-child(104) {
+  --top:75px;
+  --left:105px;
+  --duration:9s;
+  --delay:0s;
+}
+
+p:nth-child(105) {
+  --top:33px;
+  --left:38px;
+  --duration:8s;
   --delay:-3s;
 }
 
-p:nth-child(261) {
-  --top:101px;
-  --left:182px;
+p:nth-child(106) {
+  --top:183px;
+  --left:281px;
+  --duration:7s;
+  --delay:-2s;
+}
+
+p:nth-child(107) {
+  --top:147px;
+  --left:103px;
+  --duration:6s;
+  --delay:2s;
+}
+
+p:nth-child(108) {
+  --top:258px;
+  --left:161px;
+  --duration:6s;
+  --delay:-2s;
+}
+
+p:nth-child(109) {
+  --top:138px;
+  --left:197px;
+  --duration:5s;
+  --delay:-1s;
+}
+
+p:nth-child(110) {
+  --top:21px;
+  --left:101px;
+  --duration:9s;
+  --delay:-1s;
+}
+
+p:nth-child(111) {
+  --top:91px;
+  --left:177px;
+  --duration:5s;
+  --delay:-2s;
+}
+
+p:nth-child(112) {
+  --top:127px;
+  --left:154px;
+  --duration:4s;
+  --delay:0s;
+}
+
+p:nth-child(113) {
+  --top:49px;
+  --left:247px;
+  --duration:8s;
+  --delay:-3s;
+}
+
+p:nth-child(114) {
+  --top:82px;
+  --left:275px;
+  --duration:6s;
+  --delay:0s;
+}
+
+p:nth-child(115) {
+  --top:187px;
+  --left:236px;
+  --duration:4s;
+  --delay:-1s;
+}
+
+p:nth-child(116) {
+  --top:69px;
+  --left:9px;
+  --duration:6s;
+  --delay:-3s;
+}
+
+p:nth-child(117) {
+  --top:272px;
+  --left:74px;
   --duration:8s;
   --delay:0s;
 }
 
-p:nth-child(262) {
-  --top:237px;
-  --left:224px;
+p:nth-child(118) {
+  --top:276px;
+  --left:122px;
+  --duration:6s;
+  --delay:-2s;
+}
+
+p:nth-child(119) {
+  --top:170px;
+  --left:211px;
+  --duration:4s;
+  --delay:2s;
+}
+
+p:nth-child(120) {
+  --top:59px;
+  --left:71px;
+  --duration:7s;
+  --delay:-1s;
+}
+
+p:nth-child(121) {
+  --top:132px;
+  --left:95px;
+  --duration:8s;
+  --delay:-3s;
+}
+
+p:nth-child(122) {
+  --top:230px;
+  --left:226px;
+  --duration:7s;
+  --delay:2s;
+}
+
+p:nth-child(123) {
+  --top:242px;
+  --left:206px;
+  --duration:8s;
+  --delay:-1s;
+}
+
+p:nth-child(124) {
+  --top:249px;
+  --left:159px;
   --duration:4s;
   --delay:1s;
 }
 
-p:nth-child(263) {
-  --top:10px;
-  --left:80px;
-  --duration:9s;
-  --delay:2s;
-}
-
-p:nth-child(264) {
-  --top:251px;
-  --left:48px;
+p:nth-child(125) {
+  --top:187px;
+  --left:112px;
   --duration:5s;
   --delay:-3s;
 }
 
-p:nth-child(265) {
+p:nth-child(126) {
+  --top:220px;
+  --left:69px;
+  --duration:9s;
+  --delay:2s;
+}
+
+p:nth-child(127) {
+  --top:116px;
+  --left:50px;
+  --duration:4s;
+  --delay:-2s;
+}
+
+p:nth-child(128) {
+  --top:172px;
+  --left:139px;
+  --duration:6s;
+  --delay:-3s;
+}
+
+p:nth-child(129) {
+  --top:284px;
+  --left:101px;
+  --duration:9s;
+  --delay:-2s;
+}
+
+p:nth-child(130) {
+  --top:196px;
+  --left:203px;
+  --duration:4s;
+  --delay:-2s;
+}
+
+p:nth-child(131) {
+  --top:111px;
+  --left:68px;
+  --duration:4s;
+  --delay:-2s;
+}
+
+p:nth-child(132) {
+  --top:43px;
+  --left:271px;
+  --duration:6s;
+  --delay:-3s;
+}
+
+p:nth-child(133) {
+  --top:10px;
+  --left:289px;
+  --duration:8s;
+  --delay:-1s;
+}
+
+p:nth-child(134) {
+  --top:87px;
+  --left:295px;
+  --duration:4s;
+  --delay:-1s;
+}
+
+p:nth-child(135) {
+  --top:59px;
+  --left:234px;
+  --duration:5s;
+  --delay:1s;
+}
+
+p:nth-child(136) {
+  --top:140px;
+  --left:28px;
+  --duration:4s;
+  --delay:-3s;
+}
+
+p:nth-child(137) {
+  --top:47px;
+  --left:236px;
+  --duration:4s;
+  --delay:1s;
+}
+
+p:nth-child(138) {
+  --top:82px;
+  --left:32px;
+  --duration:4s;
+  --delay:-3s;
+}
+
+p:nth-child(139) {
+  --top:288px;
+  --left:227px;
+  --duration:9s;
+  --delay:-2s;
+}
+
+p:nth-child(140) {
+  --top:107px;
+  --left:166px;
+  --duration:7s;
+  --delay:2s;
+}
+
+p:nth-child(141) {
+  --top:84px;
+  --left:194px;
+  --duration:8s;
+  --delay:0s;
+}
+
+p:nth-child(142) {
+  --top:270px;
+  --left:289px;
+  --duration:8s;
+  --delay:-2s;
+}
+
+p:nth-child(143) {
+  --top:201px;
+  --left:211px;
+  --duration:7s;
+  --delay:-2s;
+}
+
+p:nth-child(144) {
+  --top:279px;
+  --left:56px;
+  --duration:6s;
+  --delay:-2s;
+}
+
+p:nth-child(145) {
+  --top:150px;
+  --left:281px;
+  --duration:5s;
+  --delay:2s;
+}
+
+p:nth-child(146) {
+  --top:209px;
+  --left:114px;
+  --duration:4s;
+  --delay:-2s;
+}
+
+p:nth-child(147) {
+  --top:127px;
+  --left:158px;
+  --duration:7s;
+  --delay:-1s;
+}
+
+p:nth-child(148) {
+  --top:254px;
+  --left:119px;
+  --duration:5s;
+  --delay:1s;
+}
+
+p:nth-child(149) {
+  --top:203px;
+  --left:37px;
+  --duration:4s;
+  --delay:1s;
+}
+
+p:nth-child(150) {
+  --top:57px;
+  --left:263px;
+  --duration:9s;
+  --delay:0s;
+}
+
+p:nth-child(151) {
+  --top:141px;
+  --left:74px;
+  --duration:6s;
+  --delay:-3s;
+}
+
+p:nth-child(152) {
+  --top:246px;
+  --left:21px;
+  --duration:8s;
+  --delay:-1s;
+}
+
+p:nth-child(153) {
+  --top:82px;
+  --left:27px;
+  --duration:7s;
+  --delay:2s;
+}
+
+p:nth-child(154) {
+  --top:151px;
+  --left:54px;
+  --duration:5s;
+  --delay:-1s;
+}
+
+p:nth-child(155) {
+  --top:233px;
+  --left:29px;
+  --duration:4s;
+  --delay:-3s;
+}
+
+p:nth-child(156) {
+  --top:87px;
+  --left:15px;
+  --duration:6s;
+  --delay:1s;
+}
+
+p:nth-child(157) {
+  --top:198px;
+  --left:89px;
+  --duration:4s;
+  --delay:-2s;
+}
+
+p:nth-child(158) {
+  --top:117px;
+  --left:208px;
+  --duration:7s;
+  --delay:0s;
+}
+
+p:nth-child(159) {
+  --top:176px;
+  --left:276px;
+  --duration:6s;
+  --delay:-2s;
+}
+
+p:nth-child(160) {
+  --top:244px;
+  --left:45px;
+  --duration:9s;
+  --delay:2s;
+}
+
+p:nth-child(161) {
+  --top:250px;
+  --left:53px;
+  --duration:5s;
+  --delay:2s;
+}
+
+p:nth-child(162) {
+  --top:44px;
+  --left:16px;
+  --duration:4s;
+  --delay:-1s;
+}
+
+p:nth-child(163) {
+  --top:205px;
+  --left:212px;
+  --duration:7s;
+  --delay:1s;
+}
+
+p:nth-child(164) {
+  --top:269px;
+  --left:91px;
+  --duration:8s;
+  --delay:1s;
+}
+
+p:nth-child(165) {
+  --top:130px;
+  --left:119px;
+  --duration:7s;
+  --delay:2s;
+}
+
+p:nth-child(166) {
+  --top:34px;
+  --left:215px;
+  --duration:5s;
+  --delay:1s;
+}
+
+p:nth-child(167) {
   --top:236px;
+  --left:239px;
+  --duration:7s;
+  --delay:-3s;
+}
+
+p:nth-child(168) {
+  --top:33px;
+  --left:174px;
+  --duration:7s;
+  --delay:1s;
+}
+
+p:nth-child(169) {
+  --top:181px;
+  --left:286px;
+  --duration:9s;
+  --delay:2s;
+}
+
+p:nth-child(170) {
+  --top:223px;
+  --left:25px;
+  --duration:6s;
+  --delay:2s;
+}
+
+p:nth-child(171) {
+  --top:182px;
+  --left:120px;
+  --duration:8s;
+  --delay:0s;
+}
+
+p:nth-child(172) {
+  --top:39px;
+  --left:5px;
+  --duration:5s;
+  --delay:2s;
+}
+
+p:nth-child(173) {
+  --top:128px;
+  --left:121px;
+  --duration:5s;
+  --delay:0s;
+}
+
+p:nth-child(174) {
+  --top:85px;
+  --left:71px;
+  --duration:6s;
+  --delay:-2s;
+}
+
+p:nth-child(175) {
+  --top:83px;
+  --left:190px;
+  --duration:7s;
+  --delay:0s;
+}
+
+p:nth-child(176) {
+  --top:246px;
+  --left:114px;
+  --duration:7s;
+  --delay:-1s;
+}
+
+p:nth-child(177) {
+  --top:133px;
   --left:196px;
   --duration:9s;
   --delay:-1s;
 }
 
-p:nth-child(266) {
-  --top:235px;
-  --left:59px;
-  --duration:7s;
-  --delay:-1s;
+p:nth-child(178) {
+  --top:190px;
+  --left:37px;
+  --duration:5s;
+  --delay:-2s;
 }
 
-p:nth-child(267) {
-  --top:161px;
-  --left:239px;
+p:nth-child(179) {
+  --top:115px;
+  --left:180px;
+  --duration:6s;
+  --delay:1s;
+}
+
+p:nth-child(180) {
+  --top:99px;
+  --left:48px;
+  --duration:4s;
+  --delay:0s;
+}
+
+p:nth-child(181) {
+  --top:242px;
+  --left:19px;
   --duration:5s;
   --delay:-1s;
 }
 
-p:nth-child(268) {
-  --top:51px;
-  --left:11px;
+p:nth-child(182) {
+  --top:143px;
+  --left:71px;
   --duration:8s;
-  --delay:-3s;
+  --delay:-1s;
 }
 
-p:nth-child(269) {
-  --top:137px;
-  --left:247px;
+p:nth-child(183) {
+  --top:164px;
+  --left:250px;
   --duration:4s;
+  --delay:-2s;
+}
+
+p:nth-child(184) {
+  --top:32px;
+  --left:53px;
+  --duration:8s;
+  --delay:1s;
+}
+
+p:nth-child(185) {
+  --top:86px;
+  --left:114px;
+  --duration:6s;
   --delay:2s;
 }
 
-p:nth-child(270) {
-  --top:126px;
-  --left:4px;
+p:nth-child(186) {
+  --top:3px;
+  --left:21px;
+  --duration:4s;
+  --delay:-2s;
+}
+
+p:nth-child(187) {
+  --top:72px;
+  --left:38px;
+  --duration:5s;
+  --delay:-3s;
+}
+
+p:nth-child(188) {
+  --top:117px;
+  --left:84px;
+  --duration:8s;
+  --delay:-1s;
+}
+
+p:nth-child(189) {
+  --top:212px;
+  --left:28px;
+  --duration:5s;
+  --delay:2s;
+}
+
+p:nth-child(190) {
+  --top:29px;
+  --left:91px;
+  --duration:9s;
+  --delay:-3s;
+}
+
+p:nth-child(191) {
+  --top:115px;
+  --left:110px;
+  --duration:8s;
+  --delay:-1s;
+}
+
+p:nth-child(192) {
+  --top:223px;
+  --left:159px;
+  --duration:9s;
+  --delay:2s;
+}
+
+p:nth-child(193) {
+  --top:165px;
+  --left:44px;
+  --duration:8s;
+  --delay:1s;
+}
+
+p:nth-child(194) {
+  --top:173px;
+  --left:178px;
+  --duration:8s;
+  --delay:-2s;
+}
+
+p:nth-child(195) {
+  --top:99px;
+  --left:106px;
+  --duration:5s;
+  --delay:2s;
+}
+
+p:nth-child(196) {
+  --top:75px;
+  --left:141px;
+  --duration:6s;
+  --delay:1s;
+}
+
+p:nth-child(197) {
+  --top:94px;
+  --left:167px;
+  --duration:5s;
+  --delay:-1s;
+}
+
+p:nth-child(198) {
+  --top:295px;
+  --left:277px;
+  --duration:9s;
+  --delay:2s;
+}
+
+p:nth-child(199) {
+  --top:287px;
+  --left:250px;
+  --duration:9s;
+  --delay:0s;
+}
+
+p:nth-child(200) {
+  --top:287px;
+  --left:261px;
+  --duration:4s;
+  --delay:-1s;
+}
+
+p:nth-child(201) {
+  --top:240px;
+  --left:71px;
+  --duration:7s;
+  --delay:1s;
+}
+
+p:nth-child(202) {
+  --top:249px;
+  --left:12px;
+  --duration:8s;
+  --delay:1s;
+}
+
+p:nth-child(203) {
+  --top:110px;
+  --left:42px;
+  --duration:7s;
+  --delay:-2s;
+}
+
+p:nth-child(204) {
+  --top:40px;
+  --left:151px;
+  --duration:6s;
+  --delay:-3s;
+}
+
+p:nth-child(205) {
+  --top:245px;
+  --left:262px;
+  --duration:6s;
+  --delay:-2s;
+}
+
+p:nth-child(206) {
+  --top:231px;
+  --left:156px;
   --duration:7s;
   --delay:-1s;
 }
 
-p:nth-child(271) {
-  --top:2px;
-  --left:1px;
+p:nth-child(207) {
+  --top:18px;
+  --left:171px;
+  --duration:7s;
+  --delay:0s;
+}
+
+p:nth-child(208) {
+  --top:136px;
+  --left:215px;
+  --duration:7s;
+  --delay:-3s;
+}
+
+p:nth-child(209) {
+  --top:68px;
+  --left:178px;
+  --duration:9s;
+  --delay:0s;
+}
+
+p:nth-child(210) {
+  --top:51px;
+  --left:37px;
   --duration:4s;
   --delay:1s;
 }
 
-p:nth-child(272) {
-  --top:227px;
+p:nth-child(211) {
+  --top:205px;
+  --left:66px;
+  --duration:9s;
+  --delay:-2s;
+}
+
+p:nth-child(212) {
+  --top:283px;
+  --left:287px;
+  --duration:9s;
+  --delay:-3s;
+}
+
+p:nth-child(213) {
+  --top:217px;
+  --left:234px;
+  --duration:6s;
+  --delay:2s;
+}
+
+p:nth-child(214) {
+  --top:218px;
+  --left:215px;
+  --duration:7s;
+  --delay:0s;
+}
+
+p:nth-child(215) {
+  --top:175px;
   --left:43px;
-  --duration:8s;
+  --duration:9s;
+  --delay:0s;
+}
+
+p:nth-child(216) {
+  --top:244px;
+  --left:112px;
+  --duration:4s;
+  --delay:0s;
+}
+
+p:nth-child(217) {
+  --top:262px;
+  --left:209px;
+  --duration:6s;
   --delay:-3s;
 }
 
-p:nth-child(273) {
-  --top:46px;
-  --left:61px;
+p:nth-child(218) {
+  --top:38px;
+  --left:219px;
+  --duration:7s;
+  --delay:-1s;
+}
+
+p:nth-child(219) {
+  --top:5px;
+  --left:156px;
   --duration:8s;
+  --delay:-1s;
+}
+
+p:nth-child(220) {
+  --top:14px;
+  --left:149px;
+  --duration:6s;
+  --delay:2s;
+}
+
+p:nth-child(221) {
+  --top:5px;
+  --left:42px;
+  --duration:7s;
+  --delay:-2s;
+}
+
+p:nth-child(222) {
+  --top:251px;
+  --left:237px;
+  --duration:5s;
+  --delay:-1s;
+}
+
+p:nth-child(223) {
+  --top:277px;
+  --left:52px;
+  --duration:9s;
+  --delay:2s;
+}
+
+p:nth-child(224) {
+  --top:99px;
+  --left:141px;
+  --duration:4s;
+  --delay:1s;
+}
+
+p:nth-child(225) {
+  --top:95px;
+  --left:99px;
+  --duration:9s;
   --delay:-3s;
 }
 
-p:nth-child(274) {
-  --top:60px;
-  --left:90px;
+p:nth-child(226) {
+  --top:252px;
+  --left:162px;
+  --duration:6s;
+  --delay:-3s;
+}
+
+p:nth-child(227) {
+  --top:82px;
+  --left:247px;
+  --duration:8s;
+  --delay:2s;
+}
+
+p:nth-child(228) {
+  --top:219px;
+  --left:16px;
+  --duration:8s;
+  --delay:-1s;
+}
+
+p:nth-child(229) {
+  --top:221px;
+  --left:259px;
+  --duration:5s;
+  --delay:-3s;
+}
+
+p:nth-child(230) {
+  --top:155px;
+  --left:117px;
+  --duration:7s;
+  --delay:-2s;
+}
+
+p:nth-child(231) {
+  --top:129px;
+  --left:121px;
+  --duration:6s;
+  --delay:-3s;
+}
+
+p:nth-child(232) {
+  --top:122px;
+  --left:121px;
+  --duration:7s;
+  --delay:2s;
+}
+
+p:nth-child(233) {
+  --top:70px;
+  --left:48px;
+  --duration:9s;
+  --delay:-2s;
+}
+
+p:nth-child(234) {
+  --top:100px;
+  --left:140px;
+  --duration:8s;
+  --delay:-2s;
+}
+
+p:nth-child(235) {
+  --top:93px;
+  --left:153px;
+  --duration:7s;
+  --delay:1s;
+}
+
+p:nth-child(236) {
+  --top:280px;
+  --left:154px;
   --duration:4s;
   --delay:2s;
 }
 
-p:nth-child(275) {
-  --top:231px;
-  --left:222px;
+p:nth-child(237) {
+  --top:30px;
+  --left:208px;
   --duration:8s;
+  --delay:2s;
+}
+
+p:nth-child(238) {
+  --top:266px;
+  --left:121px;
+  --duration:8s;
+  --delay:-3s;
+}
+
+p:nth-child(239) {
+  --top:104px;
+  --left:140px;
+  --duration:9s;
+  --delay:-1s;
+}
+
+p:nth-child(240) {
+  --top:221px;
+  --left:122px;
+  --duration:7s;
+  --delay:-1s;
+}
+
+p:nth-child(241) {
+  --top:156px;
+  --left:255px;
+  --duration:7s;
+  --delay:-3s;
+}
+
+p:nth-child(242) {
+  --top:200px;
+  --left:22px;
+  --duration:4s;
+  --delay:-3s;
+}
+
+p:nth-child(243) {
+  --top:288px;
+  --left:125px;
+  --duration:5s;
+  --delay:2s;
+}
+
+p:nth-child(244) {
+  --top:21px;
+  --left:259px;
+  --duration:5s;
   --delay:0s;
 }
 
-p:nth-child(276) {
+p:nth-child(245) {
+  --top:262px;
+  --left:245px;
+  --duration:7s;
+  --delay:-1s;
+}
+
+p:nth-child(246) {
+  --top:47px;
+  --left:28px;
+  --duration:6s;
+  --delay:2s;
+}
+
+p:nth-child(247) {
+  --top:142px;
+  --left:68px;
+  --duration:6s;
+  --delay:-3s;
+}
+
+p:nth-child(248) {
+  --top:9px;
+  --left:50px;
+  --duration:6s;
+  --delay:2s;
+}
+
+p:nth-child(249) {
+  --top:181px;
+  --left:28px;
+  --duration:5s;
+  --delay:1s;
+}
+
+p:nth-child(250) {
+  --top:203px;
+  --left:171px;
+  --duration:7s;
+  --delay:-1s;
+}
+
+p:nth-child(251) {
+  --top:45px;
+  --left:143px;
+  --duration:7s;
+  --delay:-3s;
+}
+
+p:nth-child(252) {
+  --top:96px;
+  --left:131px;
+  --duration:6s;
+  --delay:0s;
+}
+
+p:nth-child(253) {
+  --top:137px;
+  --left:182px;
+  --duration:9s;
+  --delay:0s;
+}
+
+p:nth-child(254) {
+  --top:51px;
+  --left:276px;
+  --duration:7s;
+  --delay:-3s;
+}
+
+p:nth-child(255) {
+  --top:211px;
+  --left:28px;
+  --duration:5s;
+  --delay:-2s;
+}
+
+p:nth-child(256) {
+  --top:188px;
+  --left:233px;
+  --duration:4s;
+  --delay:-3s;
+}
+
+p:nth-child(257) {
+  --top:296px;
+  --left:105px;
+  --duration:7s;
+  --delay:0s;
+}
+
+p:nth-child(258) {
+  --top:107px;
+  --left:72px;
+  --duration:4s;
+  --delay:-2s;
+}
+
+p:nth-child(259) {
+  --top:142px;
+  --left:101px;
+  --duration:7s;
+  --delay:1s;
+}
+
+p:nth-child(260) {
+  --top:291px;
+  --left:80px;
+  --duration:5s;
+  --delay:-1s;
+}
+
+p:nth-child(261) {
+  --top:197px;
+  --left:7px;
+  --duration:8s;
+  --delay:2s;
+}
+
+p:nth-child(262) {
+  --top:25px;
+  --left:296px;
+  --duration:5s;
+  --delay:-2s;
+}
+
+p:nth-child(263) {
+  --top:18px;
+  --left:40px;
+  --duration:8s;
+  --delay:1s;
+}
+
+p:nth-child(264) {
+  --top:184px;
+  --left:46px;
+  --duration:5s;
+  --delay:-3s;
+}
+
+p:nth-child(265) {
+  --top:148px;
+  --left:161px;
+  --duration:7s;
+  --delay:-1s;
+}
+
+p:nth-child(266) {
+  --top:176px;
+  --left:171px;
+  --duration:4s;
+  --delay:-3s;
+}
+
+p:nth-child(267) {
+  --top:287px;
+  --left:52px;
+  --duration:8s;
+  --delay:-2s;
+}
+
+p:nth-child(268) {
+  --top:134px;
+  --left:26px;
+  --duration:4s;
+  --delay:-2s;
+}
+
+p:nth-child(269) {
+  --top:92px;
+  --left:40px;
+  --duration:4s;
+  --delay:0s;
+}
+
+p:nth-child(270) {
+  --top:294px;
+  --left:139px;
+  --duration:9s;
+  --delay:-2s;
+}
+
+p:nth-child(271) {
+  --top:40px;
+  --left:182px;
+  --duration:6s;
+  --delay:2s;
+}
+
+p:nth-child(272) {
   --top:219px;
-  --left:148px;
+  --left:131px;
+  --duration:6s;
+  --delay:1s;
+}
+
+p:nth-child(273) {
+  --top:74px;
+  --left:158px;
+  --duration:4s;
+  --delay:-1s;
+}
+
+p:nth-child(274) {
+  --top:22px;
+  --left:210px;
+  --duration:4s;
+  --delay:-3s;
+}
+
+p:nth-child(275) {
+  --top:120px;
+  --left:34px;
+  --duration:7s;
+  --delay:-3s;
+}
+
+p:nth-child(276) {
+  --top:297px;
+  --left:86px;
   --duration:4s;
   --delay:2s;
 }
 
 p:nth-child(277) {
-  --top:254px;
-  --left:229px;
-  --duration:7s;
-  --delay:1s;
-}
-
-p:nth-child(278) {
-  --top:4px;
-  --left:176px;
-  --duration:5s;
-  --delay:-1s;
-}
-
-p:nth-child(279) {
-  --top:296px;
-  --left:190px;
+  --top:215px;
+  --left:277px;
   --duration:4s;
   --delay:-3s;
 }
 
+p:nth-child(278) {
+  --top:285px;
+  --left:258px;
+  --duration:5s;
+  --delay:0s;
+}
+
+p:nth-child(279) {
+  --top:177px;
+  --left:248px;
+  --duration:5s;
+  --delay:-2s;
+}
+
 p:nth-child(280) {
-  --top:209px;
-  --left:256px;
-  --duration:9s;
-  --delay:-3s;
+  --top:201px;
+  --left:186px;
+  --duration:7s;
+  --delay:0s;
 }
 
 p:nth-child(281) {
-  --top:102px;
-  --left:65px;
-  --duration:9s;
-  --delay:-2s;
+  --top:116px;
+  --left:264px;
+  --duration:5s;
+  --delay:-1s;
 }
 
 p:nth-child(282) {
-  --top:161px;
-  --left:38px;
-  --duration:8s;
-  --delay:-2s;
+  --top:31px;
+  --left:212px;
+  --duration:7s;
+  --delay:0s;
 }
 
 p:nth-child(283) {
-  --top:238px;
-  --left:165px;
-  --duration:9s;
+  --top:139px;
+  --left:116px;
+  --duration:8s;
   --delay:0s;
 }
 
 p:nth-child(284) {
-  --top:226px;
-  --left:170px;
-  --duration:8s;
-  --delay:-2s;
+  --top:85px;
+  --left:146px;
+  --duration:9s;
+  --delay:-3s;
 }
 
 p:nth-child(285) {
-  --top:55px;
-  --left:286px;
-  --duration:8s;
-  --delay:-1s;
+  --top:238px;
+  --left:226px;
+  --duration:4s;
+  --delay:2s;
 }
 
 p:nth-child(286) {
-  --top:224px;
-  --left:284px;
-  --duration:5s;
+  --top:10px;
+  --left:168px;
+  --duration:8s;
   --delay:2s;
 }
 
 p:nth-child(287) {
-  --top:266px;
-  --left:255px;
-  --duration:8s;
-  --delay:-3s;
+  --top:78px;
+  --left:249px;
+  --duration:4s;
+  --delay:-1s;
 }
 
 p:nth-child(288) {
-  --top:240px;
-  --left:80px;
-  --duration:8s;
-  --delay:-2s;
+  --top:5px;
+  --left:52px;
+  --duration:5s;
+  --delay:0s;
 }
 
 p:nth-child(289) {
-  --top:169px;
-  --left:145px;
-  --duration:8s;
-  --delay:-3s;
+  --top:152px;
+  --left:80px;
+  --duration:9s;
+  --delay:-2s;
 }
 
 p:nth-child(290) {
-  --top:256px;
-  --left:147px;
+  --top:189px;
+  --left:196px;
+  --duration:7s;
+  --delay:0s;
+}
+
+p:nth-child(291) {
+  --top:43px;
+  --left:224px;
+  --duration:7s;
+  --delay:0s;
+}
+
+p:nth-child(292) {
+  --top:147px;
+  --left:263px;
+  --duration:5s;
+  --delay:-2s;
+}
+
+p:nth-child(293) {
+  --top:85px;
+  --left:12px;
   --duration:5s;
   --delay:2s;
 }
 
-p:nth-child(291) {
-  --top:232px;
-  --left:257px;
-  --duration:9s;
-  --delay:-1s;
-}
-
-p:nth-child(292) {
-  --top:278px;
-  --left:125px;
-  --duration:6s;
-  --delay:0s;
-}
-
-p:nth-child(293) {
-  --top:289px;
-  --left:49px;
-  --duration:9s;
-  --delay:-1s;
-}
-
 p:nth-child(294) {
-  --top:100px;
+  --top:26px;
   --left:295px;
-  --duration:9s;
+  --duration:6s;
   --delay:-1s;
 }
 
 p:nth-child(295) {
-  --top:258px;
-  --left:73px;
-  --duration:5s;
+  --top:278px;
+  --left:249px;
+  --duration:6s;
   --delay:2s;
 }
 
 p:nth-child(296) {
-  --top:214px;
-  --left:236px;
-  --duration:4s;
-  --delay:0s;
+  --top:103px;
+  --left:110px;
+  --duration:9s;
+  --delay:-2s;
 }
 
 p:nth-child(297) {
-  --top:72px;
-  --left:122px;
-  --duration:9s;
-  --delay:0s;
+  --top:81px;
+  --left:52px;
+  --duration:7s;
+  --delay:-1s;
 }
 
 p:nth-child(298) {
-  --top:252px;
-  --left:153px;
-  --duration:8s;
-  --delay:-1s;
+  --top:196px;
+  --left:272px;
+  --duration:6s;
+  --delay:-2s;
 }
 
 p:nth-child(299) {
-  --top:174px;
-  --left:185px;
-  --duration:5s;
-  --delay:0s;
+  --top:291px;
+  --left:97px;
+  --duration:6s;
+  --delay:1s;
 }
 
 p:nth-child(300) {
-  --top:300px;
-  --left:254px;
-  --duration:8s;
-  --delay:-1s;
+  --top:143px;
+  --left:184px;
+  --duration:7s;
+  --delay:-3s;
 }
 
 p:nth-child(301) {
-  --top:279px;
-  --left:144px;
-  --duration:8s;
-  --delay:-2s;
+  --top:287px;
+  --left:238px;
+  --duration:5s;
+  --delay:-1s;
 }
 
 .rocket {

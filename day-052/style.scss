@@ -3,3 +3,75 @@
     padding: 0%;
     box-sizing: border-box;
 }
+$numberOfRings: 10; // update together with HTML
+$numberOfDots: 12; // update together with HTML
+$radius: 40;
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frame{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 12px 0 rgba(0,0,0,0.3);
+    background-color: rgb(155, 137, 139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.ring{
+    position: absolute;
+    height: ($radius * 2) + px;
+    width:($radius * 2) + px;
+    top: ((400 - ($radius * 2)) / 2) + px;
+    left: ((400 - ($radius * 2)) / 2) + px;
+    .dot{
+        position: absolute;
+        top: $radius + px;
+        left: $radius + px;
+        width: 8px;
+		height: 8px;
+    }
+    .fill{
+        height: 8px;
+        width: 8px;
+        background-color: white;
+        border-radius: 50%;
+    }
+}
+@for $i from 1 through $numberOfRings{
+    $nullBase: $i - 1;
+    $dotsPerCircle: ($numberOfDots + ( $i * 6 ) );
+    .ring-#{$i}{
+        @for $j from 1 through $dotsPerCircle {
+			$nullBaseJ: $j - 1;
+			$angle: 360 / $dotsPerCircle;
+			.dot-#{$j} {
+				$deg: ($nullBaseJ * $angle) + deg;
+				transform: translate3d(0, ( ($radius + ($nullBase * 11)) * -1) + px, 0) rotate($deg);
+				transform-origin: 0 ($radius + ($nullBase * 11)) + px;
+			}
+        .fill{
+            animation: pulse 2s ease-in-out ($i/3)+s alternate infinite both;
+
+        }
+    }
+}
+}
+@keyframes pulse1{
+    0%{
+        background-color: rgb(51, 8, 242);
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        background-color: white;
+        transform: scale(.2);
+    }
+}

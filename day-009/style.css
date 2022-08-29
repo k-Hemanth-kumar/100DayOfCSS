@@ -1,6 +1,5 @@
 * {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   margin: 0%;
   padding: 0%;
 }
@@ -16,8 +15,7 @@
   border-radius: 5px;
   margin-top: -200px;
   margin-left: -200px;
-  -webkit-box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
-          box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
   background: #1A2238;
   color: #394568;
   font-family: "Open Sans", Helvetica, sans-serif;
@@ -35,13 +33,11 @@
   border-radius: 50%;
   top: 45px;
   left: 55px;
-  -webkit-box-shadow: 0 0 10px 0 #F6EDBD;
-          box-shadow: 0 0 10px 0 #F6EDBD;
+  box-shadow: 0 0 10px 0 #F6EDBD;
   -webkit-animation: rise 1s ease-out;
           animation: rise 1s ease-out;
   overflow: hidden;
 }
-
 .moon .crater-1, .moon .crater-2, .moon .crater-3, .moon .crater-4,
 .moon .crater-5, .moon .crater-6, .moon .crater-7, .moon .crater-8,
 .moon .crater-9, .moon .crater-10, .moon .crater-11 {
@@ -53,67 +49,56 @@
   left: 12px;
   border-radius: 50%;
 }
-
 .moon .crater-2 {
   top: 20px;
   left: 30px;
   height: 20px;
   width: 20px;
 }
-
 .moon .crater-3 {
   top: 60px;
   left: 40px;
 }
-
 .moon .crater-4 {
   left: 0px;
   top: 50px;
 }
-
 .moon .crater-5 {
   left: 70px;
   top: 60px;
 }
-
 .moon .crater-6 {
   top: 10%;
   left: 60%;
   height: 5px;
   width: 5px;
 }
-
 .moon .crater-7, .moon .crater-8, .moon .crater-10 {
   height: 8px;
   width: 8px;
   top: 40%;
   left: 90%;
 }
-
 .moon .crater-11 {
   top: 50%;
   left: 40%;
   height: 5px;
   width: 5px;
 }
-
 .moon .crater-9 {
   top: 70%;
   left: 20%;
   height: 6px;
   width: 6px;
 }
-
 .moon .crater-7 {
   left: 70%;
   top: 45%;
 }
-
 .moon .crater-8 {
   left: 20%;
   top: 40%;
 }
-
 .moon .crater-10 {
   top: 25%;
   left: 80%;
@@ -164,7 +149,6 @@
   width: 100%;
   bottom: 0;
 }
-
 .weather .temperature {
   float: left;
   line-height: 70px;
@@ -172,14 +156,12 @@
   font-size: 35px;
   font-weight: 700;
 }
-
 .weather .info {
   float: left;
   margin: 15px 0 0 13px;
   font-size: 15px;
   line-height: 20px;
 }
-
 .weather .forecast {
   float: right;
   text-align: right;
@@ -187,11 +169,9 @@
   font-size: 15px;
   margin: 14px 20px 0 0;
 }
-
 .weather .forecast td {
   padding: 0 3px;
 }
-
 .weather .forecast td:first-child {
   font-weight: 600;
 }
@@ -207,14 +187,14 @@
   border-radius: 50%;
   left: 18px;
   bottom: 70px;
-  -webkit-animation: drop .8s linear .5s infinite;
-          animation: drop .8s linear .5s infinite;
+  -webkit-animation: drop 0.8s linear 0.5s infinite;
+          animation: drop 0.8s linear 0.5s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
 
 .wdrop-big-1::before {
-  content: '';
+  content: "";
   display: block;
   z-index: 7;
   position: absolute;
@@ -228,7 +208,7 @@
 
 .wdrop-big-1::after {
   z-index: 7;
-  content: '';
+  content: "";
   position: absolute;
   height: 10px;
   width: 4px;
@@ -241,14 +221,14 @@
 .wdrop-big-2 {
   left: 56px;
   bottom: 70px;
-  -webkit-animation: drop .8s linear .72s infinite;
-          animation: drop .8s linear .72s infinite;
+  -webkit-animation: drop 0.8s linear 0.72s infinite;
+          animation: drop 0.8s linear 0.72s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
 
 .wdrop-big-2::before {
-  content: '';
+  content: "";
   display: block;
   z-index: 7;
   position: absolute;
@@ -262,7 +242,7 @@
 
 .wdrop-big-2::after {
   z-index: 7;
-  content: '';
+  content: "";
   position: absolute;
   height: 10px;
   width: 4px;
@@ -274,14 +254,14 @@
 
 .wdrop-big-3 {
   left: 90px;
-  -webkit-animation: drop .8s linear .92s  infinite;
-          animation: drop .8s linear .92s  infinite;
+  -webkit-animation: drop 0.8s linear 0.92s infinite;
+          animation: drop 0.8s linear 0.92s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
 
 .wdrop-big-3::before {
-  content: '';
+  content: "";
   display: block;
   z-index: 7;
   position: absolute;
@@ -295,7 +275,7 @@
 
 .wdrop-big-3::after {
   z-index: 7;
-  content: '';
+  content: "";
   position: absolute;
   height: 10px;
   width: 4px;
@@ -307,14 +287,14 @@
 
 .wdrop-big-4 {
   left: 109px;
-  -webkit-animation: drop .8s linear .3s  infinite;
-          animation: drop .8s linear .3s  infinite;
+  -webkit-animation: drop 0.8s linear 0.3s infinite;
+          animation: drop 0.8s linear 0.3s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
 
 .wdrop-big-4::before {
-  content: '';
+  content: "";
   display: block;
   z-index: 7;
   position: absolute;
@@ -328,7 +308,7 @@
 
 .wdrop-big-4::after {
   z-index: 7;
-  content: '';
+  content: "";
   position: absolute;
   height: 10px;
   width: 4px;
@@ -340,14 +320,14 @@
 
 .wdrop-big-5 {
   left: 20px;
-  -webkit-animation: drop .8s linear .1s  infinite;
-          animation: drop .8s linear .1s  infinite;
+  -webkit-animation: drop 0.8s linear 0.1s infinite;
+          animation: drop 0.8s linear 0.1s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
 
 .wdrop-big-5::before {
-  content: '';
+  content: "";
   display: block;
   z-index: 7;
   position: absolute;
@@ -361,7 +341,7 @@
 
 .wdrop-big-5::after {
   z-index: 7;
-  content: '';
+  content: "";
   position: absolute;
   height: 10px;
   width: 4px;
@@ -373,14 +353,14 @@
 
 .wdrop-big-6 {
   left: 180px;
-  -webkit-animation: drop .8s linear .67s  infinite;
-          animation: drop .8s linear .67s  infinite;
+  -webkit-animation: drop 0.8s linear 0.67s infinite;
+          animation: drop 0.8s linear 0.67s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
 
 .wdrop-big-6::before {
-  content: '';
+  content: "";
   display: block;
   z-index: 7;
   position: absolute;
@@ -394,7 +374,7 @@
 
 .wdrop-big-6::after {
   z-index: 7;
-  content: '';
+  content: "";
   position: absolute;
   height: 10px;
   width: 4px;
@@ -406,14 +386,14 @@
 
 .wdrop-big-7 {
   left: 230px;
-  -webkit-animation: drop .8s linear 1s  infinite;
-          animation: drop .8s linear 1s  infinite;
+  -webkit-animation: drop 0.8s linear 1s infinite;
+          animation: drop 0.8s linear 1s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
 
 .wdrop-big-7::before {
-  content: '';
+  content: "";
   display: block;
   z-index: 7;
   position: absolute;
@@ -427,7 +407,7 @@
 
 .wdrop-big-7::after {
   z-index: 7;
-  content: '';
+  content: "";
   position: absolute;
   height: 10px;
   width: 4px;
@@ -446,7 +426,7 @@
 }
 
 .wdrop-big-8::before {
-  content: '';
+  content: "";
   display: block;
   z-index: 7;
   position: absolute;
@@ -460,7 +440,7 @@
 
 .wdrop-big-8::after {
   z-index: 7;
-  content: '';
+  content: "";
   position: absolute;
   height: 10px;
   width: 4px;
@@ -472,14 +452,14 @@
 
 .wdrop-big-9 {
   left: 320px;
-  -webkit-animation: drop .8s linear .31s  infinite;
-          animation: drop .8s linear .31s  infinite;
+  -webkit-animation: drop 0.8s linear 0.31s infinite;
+          animation: drop 0.8s linear 0.31s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
 
 .wdrop-big-9::before {
-  content: '';
+  content: "";
   display: block;
   z-index: 7;
   position: absolute;
@@ -493,7 +473,7 @@
 
 .wdrop-big-9::after {
   z-index: 7;
-  content: '';
+  content: "";
   position: absolute;
   height: 10px;
   width: 4px;
@@ -505,14 +485,14 @@
 
 .wdrop-big-10 {
   left: 350px;
-  -webkit-animation: drop .8s linear .43s  infinite;
-          animation: drop .8s linear .43s  infinite;
+  -webkit-animation: drop 0.8s linear 0.43s infinite;
+          animation: drop 0.8s linear 0.43s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
 
 .wdrop-big-10::before {
-  content: '';
+  content: "";
   display: block;
   z-index: 7;
   position: absolute;
@@ -526,7 +506,7 @@
 
 .wdrop-big-10::after {
   z-index: 7;
-  content: '';
+  content: "";
   position: absolute;
   height: 10px;
   width: 4px;
@@ -546,14 +526,14 @@
   border-radius: 50%;
   left: 28px;
   bottom: 70px;
-  -webkit-animation: drop .8s linear .23s infinite;
-          animation: drop .8s linear .23s infinite;
+  -webkit-animation: drop 0.8s linear 0.23s infinite;
+          animation: drop 0.8s linear 0.23s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
 
 .wdrop-med-1::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 4px;
   width: 4px;
@@ -564,7 +544,7 @@
 }
 
 .wdrop-med-1::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 6px;
   width: 2px;
@@ -584,14 +564,14 @@
   border-radius: 50%;
   left: 48px;
   bottom: 70px;
-  -webkit-animation: drop .8s linear .77s infinite;
-          animation: drop .8s linear .77s infinite;
+  -webkit-animation: drop 0.8s linear 0.77s infinite;
+          animation: drop 0.8s linear 0.77s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
 
 .wdrop-med-2::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 4px;
   width: 4px;
@@ -602,7 +582,7 @@
 }
 
 .wdrop-med-2::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 6px;
   width: 2px;
@@ -622,14 +602,14 @@
   border-radius: 50%;
   left: 70px;
   bottom: 70px;
-  -webkit-animation: drop .8s linear 3s infinite;
-          animation: drop .8s linear 3s infinite;
+  -webkit-animation: drop 0.8s linear 3s infinite;
+          animation: drop 0.8s linear 3s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
 
 .wdrop-med-3::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 4px;
   width: 4px;
@@ -640,7 +620,7 @@
 }
 
 .wdrop-med-3::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 6px;
   width: 2px;
@@ -660,14 +640,14 @@
   border-radius: 50%;
   left: 125px;
   bottom: 70px;
-  -webkit-animation: drop .8s linear .33s infinite;
-          animation: drop .8s linear .33s infinite;
+  -webkit-animation: drop 0.8s linear 0.33s infinite;
+          animation: drop 0.8s linear 0.33s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
 
 .wdrop-med-4::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 4px;
   width: 4px;
@@ -678,7 +658,7 @@
 }
 
 .wdrop-med-4::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 6px;
   width: 2px;
@@ -698,14 +678,14 @@
   border-radius: 50%;
   left: 160px;
   bottom: 70px;
-  -webkit-animation: drop .8s linear .83s infinite;
-          animation: drop .8s linear .83s infinite;
+  -webkit-animation: drop 0.8s linear 0.83s infinite;
+          animation: drop 0.8s linear 0.83s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
 
 .wdrop-med-5::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 4px;
   width: 4px;
@@ -716,7 +696,7 @@
 }
 
 .wdrop-med-5::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 6px;
   width: 2px;
@@ -736,14 +716,14 @@
   border-radius: 50%;
   left: 200px;
   bottom: 70px;
-  -webkit-animation: drop .8s linear .41s infinite;
-          animation: drop .8s linear .41s infinite;
+  -webkit-animation: drop 0.8s linear 0.41s infinite;
+          animation: drop 0.8s linear 0.41s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
 
 .wdrop-med-6::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 4px;
   width: 4px;
@@ -754,7 +734,7 @@
 }
 
 .wdrop-med-6::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 6px;
   width: 2px;
@@ -774,14 +754,14 @@
   border-radius: 50%;
   left: 220px;
   bottom: 70px;
-  -webkit-animation: drop .8s linear .58s infinite;
-          animation: drop .8s linear .58s infinite;
+  -webkit-animation: drop 0.8s linear 0.58s infinite;
+          animation: drop 0.8s linear 0.58s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
 
 .wdrop-med-7::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 4px;
   width: 4px;
@@ -792,7 +772,7 @@
 }
 
 .wdrop-med-7::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 6px;
   width: 2px;
@@ -812,14 +792,14 @@
   border-radius: 50%;
   left: 270px;
   bottom: 70px;
-  -webkit-animation: drop .8s linear .89s infinite;
-          animation: drop .8s linear .89s infinite;
+  -webkit-animation: drop 0.8s linear 0.89s infinite;
+          animation: drop 0.8s linear 0.89s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
 
 .wdrop-med-8::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 4px;
   width: 4px;
@@ -830,7 +810,7 @@
 }
 
 .wdrop-med-8::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 6px;
   width: 2px;
@@ -850,14 +830,14 @@
   border-radius: 50%;
   left: 390px;
   bottom: 70px;
-  -webkit-animation: drop .8s linear .39s infinite;
-          animation: drop .8s linear .39s infinite;
+  -webkit-animation: drop 0.8s linear 0.39s infinite;
+          animation: drop 0.8s linear 0.39s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
 
 .wdrop-med-9::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 4px;
   width: 4px;
@@ -868,7 +848,7 @@
 }
 
 .wdrop-med-9::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 6px;
   width: 2px;
@@ -888,14 +868,14 @@
   border-radius: 50%;
   left: 330px;
   bottom: 70px;
-  -webkit-animation: drop .8s linear 2.4s infinite;
-          animation: drop .8s linear 2.4s infinite;
+  -webkit-animation: drop 0.8s linear 2.4s infinite;
+          animation: drop 0.8s linear 2.4s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
 
 .wdrop-med-10::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 4px;
   width: 4px;
@@ -906,7 +886,7 @@
 }
 
 .wdrop-med-10::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 6px;
   width: 2px;
@@ -925,15 +905,15 @@
   bottom: 70px;
   left: 135px;
   z-index: 7;
-  -webkit-animation: drop .8s linear .79s infinite;
-          animation: drop .8s linear .79s infinite;
+  -webkit-animation: drop 0.8s linear 0.79s infinite;
+          animation: drop 0.8s linear 0.79s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   opacity: 0.5;
 }
 
 .wdrop-sml-1::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 2px;
   width: 2px;
@@ -945,7 +925,7 @@
 
 .wdrop-sml-1::after {
   position: absolute;
-  content: '';
+  content: "";
   height: 4px;
   width: 2px;
   border-radius: 50%;
@@ -963,15 +943,15 @@
   bottom: 70px;
   left: 75px;
   z-index: 7;
-  -webkit-animation: drop .8s linear .51s infinite;
-          animation: drop .8s linear .51s infinite;
+  -webkit-animation: drop 0.8s linear 0.51s infinite;
+          animation: drop 0.8s linear 0.51s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   opacity: 0.5;
 }
 
 .wdrop-sml-2::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 2px;
   width: 2px;
@@ -983,7 +963,7 @@
 
 .wdrop-sml-2::after {
   position: absolute;
-  content: '';
+  content: "";
   height: 4px;
   width: 2px;
   border-radius: 50%;
@@ -1001,15 +981,15 @@
   bottom: 70px;
   left: 15px;
   z-index: 7;
-  -webkit-animation: drop .8s linear 4s infinite;
-          animation: drop .8s linear 4s infinite;
+  -webkit-animation: drop 0.8s linear 4s infinite;
+          animation: drop 0.8s linear 4s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   opacity: 0.5;
 }
 
 .wdrop-sml-3::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 2px;
   width: 2px;
@@ -1021,7 +1001,7 @@
 
 .wdrop-sml-3::after {
   position: absolute;
-  content: '';
+  content: "";
   height: 4px;
   width: 2px;
   border-radius: 50%;
@@ -1039,15 +1019,15 @@
   bottom: 70px;
   left: 165px;
   z-index: 7;
-  -webkit-animation: drop .8s linear 0s infinite;
-          animation: drop .8s linear 0s infinite;
+  -webkit-animation: drop 0.8s linear 0s infinite;
+          animation: drop 0.8s linear 0s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   opacity: 0.5;
 }
 
 .wdrop-sml-4::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 2px;
   width: 2px;
@@ -1059,7 +1039,7 @@
 
 .wdrop-sml-4::after {
   position: absolute;
-  content: '';
+  content: "";
   height: 4px;
   width: 2px;
   border-radius: 50%;
@@ -1077,15 +1057,15 @@
   bottom: 70px;
   left: 350px;
   z-index: 7;
-  -webkit-animation: drop .8s linear .2s infinite;
-          animation: drop .8s linear .2s infinite;
+  -webkit-animation: drop 0.8s linear 0.2s infinite;
+          animation: drop 0.8s linear 0.2s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   opacity: 0.5;
 }
 
 .wdrop-sml-5::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 2px;
   width: 2px;
@@ -1097,7 +1077,7 @@
 
 .wdrop-sml-5::after {
   position: absolute;
-  content: '';
+  content: "";
   height: 4px;
   width: 2px;
   border-radius: 50%;
@@ -1115,15 +1095,15 @@
   bottom: 70px;
   left: 78px;
   z-index: 7;
-  -webkit-animation: drop .8s linear 4.3s infinite;
-          animation: drop .8s linear 4.3s infinite;
+  -webkit-animation: drop 0.8s linear 4.3s infinite;
+          animation: drop 0.8s linear 4.3s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   opacity: 0.5;
 }
 
 .wdrop-sml-6::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 2px;
   width: 2px;
@@ -1135,7 +1115,7 @@
 
 .wdrop-sml-6::after {
   position: absolute;
-  content: '';
+  content: "";
   height: 4px;
   width: 2px;
   border-radius: 50%;
@@ -1153,15 +1133,15 @@
   bottom: 70px;
   left: 256px;
   z-index: 7;
-  -webkit-animation: drop .8s linear .36s infinite;
-          animation: drop .8s linear .36s infinite;
+  -webkit-animation: drop 0.8s linear 0.36s infinite;
+          animation: drop 0.8s linear 0.36s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   opacity: 0.5;
 }
 
 .wdrop-sml-7::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 2px;
   width: 2px;
@@ -1173,7 +1153,7 @@
 
 .wdrop-sml-7::after {
   position: absolute;
-  content: '';
+  content: "";
   height: 4px;
   width: 2px;
   border-radius: 50%;
@@ -1191,15 +1171,15 @@
   bottom: 70px;
   left: 398px;
   z-index: 7;
-  -webkit-animation: drop .8s linear 4.9s infinite;
-          animation: drop .8s linear 4.9s infinite;
+  -webkit-animation: drop 0.8s linear 4.9s infinite;
+          animation: drop 0.8s linear 4.9s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   opacity: 0.5;
 }
 
 .wdrop-sml-8::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 2px;
   width: 2px;
@@ -1218,15 +1198,15 @@
   bottom: 70px;
   left: 0px;
   z-index: 7;
-  -webkit-animation: drop .8s linear .86s infinite;
-          animation: drop .8s linear .86s infinite;
+  -webkit-animation: drop 0.8s linear 0.86s infinite;
+          animation: drop 0.8s linear 0.86s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   opacity: 0.5;
 }
 
 .wdrop-sml-9::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 2px;
   width: 2px;
@@ -1245,15 +1225,15 @@
   bottom: 70px;
   left: 156px;
   z-index: 7;
-  -webkit-animation: drop .8s linear 5s infinite;
-          animation: drop .8s linear 5s infinite;
+  -webkit-animation: drop 0.8s linear 5s infinite;
+          animation: drop 0.8s linear 5s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   opacity: 0.5;
 }
 
 .wdrop-sml-10::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 2px;
   width: 2px;
@@ -1265,7 +1245,7 @@
 
 .wdrop-sml-10::after {
   position: absolute;
-  content: '';
+  content: "";
   height: 4px;
   width: 2px;
   border-radius: 50%;
@@ -1276,7 +1256,7 @@
 
 .wdrop-sml-8::after {
   position: absolute;
-  content: '';
+  content: "";
   height: 4px;
   width: 2px;
   border-radius: 50%;
@@ -1287,7 +1267,7 @@
 
 .wdrop-sml-9::after {
   position: absolute;
-  content: '';
+  content: "";
   height: 4px;
   width: 2px;
   border-radius: 50%;
@@ -1298,53 +1278,40 @@
 
 @-webkit-keyframes rise {
   from {
-    -webkit-transform: translate(-100px, 200px);
-            transform: translate(-100px, 200px);
+    transform: translate(-100px, 200px);
   }
   to {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
+    transform: translate(0, 0);
   }
 }
 
 @keyframes rise {
   from {
-    -webkit-transform: translate(-100px, 200px);
-            transform: translate(-100px, 200px);
+    transform: translate(-100px, 200px);
   }
   to {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
+    transform: translate(0, 0);
   }
 }
-
 @-webkit-keyframes drop {
   0% {
-    -webkit-transform: translate3d(40px, -340px, 0) scaleX(1) scaleY(2) rotate(17deg);
-            transform: translate3d(40px, -340px, 0) scaleX(1) scaleY(2) rotate(17deg);
+    transform: translate3d(40px, -340px, 0) scaleX(1) scaleY(2) rotate(17deg);
   }
   85% {
-    -webkit-transform: translate3d(0, 0, 0) scaleX(1) scaleY(1) rotate(17deg);
-            transform: translate3d(0, 0, 0) scaleX(1) scaleY(1) rotate(17deg);
+    transform: translate3d(0, 0, 0) scaleX(1) scaleY(1) rotate(17deg);
   }
   100% {
-    -webkit-transform: translate3d(0, 0, 0) scaleX(3) scaleY(0) rotate(0deg);
-            transform: translate3d(0, 0, 0) scaleX(3) scaleY(0) rotate(0deg);
+    transform: translate3d(0, 0, 0) scaleX(3) scaleY(0) rotate(0deg);
   }
 }
-
 @keyframes drop {
   0% {
-    -webkit-transform: translate3d(40px, -340px, 0) scaleX(1) scaleY(2) rotate(17deg);
-            transform: translate3d(40px, -340px, 0) scaleX(1) scaleY(2) rotate(17deg);
+    transform: translate3d(40px, -340px, 0) scaleX(1) scaleY(2) rotate(17deg);
   }
   85% {
-    -webkit-transform: translate3d(0, 0, 0) scaleX(1) scaleY(1) rotate(17deg);
-            transform: translate3d(0, 0, 0) scaleX(1) scaleY(1) rotate(17deg);
+    transform: translate3d(0, 0, 0) scaleX(1) scaleY(1) rotate(17deg);
   }
   100% {
-    -webkit-transform: translate3d(0, 0, 0) scaleX(3) scaleY(0) rotate(0deg);
-            transform: translate3d(0, 0, 0) scaleX(3) scaleY(0) rotate(0deg);
+    transform: translate3d(0, 0, 0) scaleX(3) scaleY(0) rotate(0deg);
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

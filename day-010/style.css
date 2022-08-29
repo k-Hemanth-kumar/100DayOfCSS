@@ -1,6 +1,5 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .frame {
@@ -11,13 +10,12 @@
   width: 400px;
   background-color: #4c4c4c;
   border-radius: 5px;
-  -webkit-box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.3);
-          box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.3);
   margin-top: -200px;
   margin-left: -200px;
   color: #fff;
   overflow: hidden;
-  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -26,8 +24,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .circle-wrapper {
@@ -35,7 +32,6 @@
   height: 212px;
   position: relative;
 }
-
 .circle-wrapper .outer {
   background-color: #242424;
   border-radius: 50%;
@@ -48,21 +44,18 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .inner {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   border-radius: 50%;
   width: calc(100% - 38px);
   height: calc(100% - 38px);
 }
-
 .inner .border {
   top: 2.5px;
   height: 100%;
@@ -71,7 +64,6 @@
   border-radius: 50%;
   overflow: hidden;
 }
-
 .inner .border .seconds {
   position: absolute;
   height: 3px;
@@ -79,325 +71,201 @@
   border-radius: 50%;
   background-color: wheat;
   left: 86.5px;
-  -webkit-transform-origin: 0 85.5px;
-          transform-origin: 0 85.5px;
+  transform-origin: 0 85.5px;
 }
-
 .inner .border .seconds:nth-child(1) {
-  -webkit-transform: rotateZ(0deg);
-          transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
 }
-
 .inner .border .seconds:nth-child(2) {
-  -webkit-transform: rotateZ(6deg);
-          transform: rotateZ(6deg);
+  transform: rotateZ(6deg);
 }
-
 .inner .border .seconds:nth-child(3) {
-  -webkit-transform: rotateZ(12deg);
-          transform: rotateZ(12deg);
+  transform: rotateZ(12deg);
 }
-
 .inner .border .seconds:nth-child(4) {
-  -webkit-transform: rotateZ(18deg);
-          transform: rotateZ(18deg);
+  transform: rotateZ(18deg);
 }
-
 .inner .border .seconds:nth-child(5) {
-  -webkit-transform: rotateZ(24deg);
-          transform: rotateZ(24deg);
+  transform: rotateZ(24deg);
 }
-
 .inner .border .seconds:nth-child(6) {
-  -webkit-transform: rotateZ(30deg);
-          transform: rotateZ(30deg);
+  transform: rotateZ(30deg);
 }
-
 .inner .border .seconds:nth-child(7) {
-  -webkit-transform: rotateZ(36deg);
-          transform: rotateZ(36deg);
+  transform: rotateZ(36deg);
 }
-
 .inner .border .seconds:nth-child(8) {
-  -webkit-transform: rotateZ(42deg);
-          transform: rotateZ(42deg);
+  transform: rotateZ(42deg);
 }
-
 .inner .border .seconds:nth-child(9) {
-  -webkit-transform: rotateZ(48deg);
-          transform: rotateZ(48deg);
+  transform: rotateZ(48deg);
 }
-
 .inner .border .seconds:nth-child(10) {
-  -webkit-transform: rotateZ(54deg);
-          transform: rotateZ(54deg);
+  transform: rotateZ(54deg);
 }
-
 .inner .border .seconds:nth-child(11) {
-  -webkit-transform: rotateZ(60deg);
-          transform: rotateZ(60deg);
+  transform: rotateZ(60deg);
 }
-
 .inner .border .seconds:nth-child(12) {
-  -webkit-transform: rotateZ(66deg);
-          transform: rotateZ(66deg);
+  transform: rotateZ(66deg);
 }
-
 .inner .border .seconds:nth-child(13) {
-  -webkit-transform: rotateZ(72deg);
-          transform: rotateZ(72deg);
+  transform: rotateZ(72deg);
 }
-
 .inner .border .seconds:nth-child(14) {
-  -webkit-transform: rotateZ(78deg);
-          transform: rotateZ(78deg);
+  transform: rotateZ(78deg);
 }
-
 .inner .border .seconds:nth-child(15) {
-  -webkit-transform: rotateZ(84deg);
-          transform: rotateZ(84deg);
+  transform: rotateZ(84deg);
 }
-
 .inner .border .seconds:nth-child(16) {
-  -webkit-transform: rotateZ(90deg);
-          transform: rotateZ(90deg);
+  transform: rotateZ(90deg);
 }
-
 .inner .border .seconds:nth-child(17) {
-  -webkit-transform: rotateZ(96deg);
-          transform: rotateZ(96deg);
+  transform: rotateZ(96deg);
 }
-
 .inner .border .seconds:nth-child(18) {
-  -webkit-transform: rotateZ(102deg);
-          transform: rotateZ(102deg);
+  transform: rotateZ(102deg);
 }
-
 .inner .border .seconds:nth-child(19) {
-  -webkit-transform: rotateZ(108deg);
-          transform: rotateZ(108deg);
+  transform: rotateZ(108deg);
 }
-
 .inner .border .seconds:nth-child(20) {
-  -webkit-transform: rotateZ(114deg);
-          transform: rotateZ(114deg);
+  transform: rotateZ(114deg);
 }
-
 .inner .border .seconds:nth-child(21) {
-  -webkit-transform: rotateZ(120deg);
-          transform: rotateZ(120deg);
+  transform: rotateZ(120deg);
 }
-
 .inner .border .seconds:nth-child(22) {
-  -webkit-transform: rotateZ(126deg);
-          transform: rotateZ(126deg);
+  transform: rotateZ(126deg);
 }
-
 .inner .border .seconds:nth-child(23) {
-  -webkit-transform: rotateZ(132deg);
-          transform: rotateZ(132deg);
+  transform: rotateZ(132deg);
 }
-
 .inner .border .seconds:nth-child(24) {
-  -webkit-transform: rotateZ(138deg);
-          transform: rotateZ(138deg);
+  transform: rotateZ(138deg);
 }
-
 .inner .border .seconds:nth-child(25) {
-  -webkit-transform: rotateZ(144deg);
-          transform: rotateZ(144deg);
+  transform: rotateZ(144deg);
 }
-
 .inner .border .seconds:nth-child(26) {
-  -webkit-transform: rotateZ(150deg);
-          transform: rotateZ(150deg);
+  transform: rotateZ(150deg);
 }
-
 .inner .border .seconds:nth-child(27) {
-  -webkit-transform: rotateZ(156deg);
-          transform: rotateZ(156deg);
+  transform: rotateZ(156deg);
 }
-
 .inner .border .seconds:nth-child(28) {
-  -webkit-transform: rotateZ(162deg);
-          transform: rotateZ(162deg);
+  transform: rotateZ(162deg);
 }
-
 .inner .border .seconds:nth-child(29) {
-  -webkit-transform: rotateZ(168deg);
-          transform: rotateZ(168deg);
+  transform: rotateZ(168deg);
 }
-
 .inner .border .seconds:nth-child(30) {
-  -webkit-transform: rotateZ(174deg);
-          transform: rotateZ(174deg);
+  transform: rotateZ(174deg);
 }
-
 .inner .border .seconds:nth-child(31) {
-  -webkit-transform: rotateZ(180deg);
-          transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
 }
-
 .inner .border .seconds:nth-child(32) {
-  -webkit-transform: rotateZ(186deg);
-          transform: rotateZ(186deg);
+  transform: rotateZ(186deg);
 }
-
 .inner .border .seconds:nth-child(33) {
-  -webkit-transform: rotateZ(192deg);
-          transform: rotateZ(192deg);
+  transform: rotateZ(192deg);
 }
-
 .inner .border .seconds:nth-child(34) {
-  -webkit-transform: rotateZ(198deg);
-          transform: rotateZ(198deg);
+  transform: rotateZ(198deg);
 }
-
 .inner .border .seconds:nth-child(35) {
-  -webkit-transform: rotateZ(204deg);
-          transform: rotateZ(204deg);
+  transform: rotateZ(204deg);
 }
-
 .inner .border .seconds:nth-child(36) {
-  -webkit-transform: rotateZ(210deg);
-          transform: rotateZ(210deg);
+  transform: rotateZ(210deg);
 }
-
 .inner .border .seconds:nth-child(37) {
-  -webkit-transform: rotateZ(216deg);
-          transform: rotateZ(216deg);
+  transform: rotateZ(216deg);
 }
-
 .inner .border .seconds:nth-child(38) {
-  -webkit-transform: rotateZ(222deg);
-          transform: rotateZ(222deg);
+  transform: rotateZ(222deg);
 }
-
 .inner .border .seconds:nth-child(39) {
-  -webkit-transform: rotateZ(228deg);
-          transform: rotateZ(228deg);
+  transform: rotateZ(228deg);
 }
-
 .inner .border .seconds:nth-child(40) {
-  -webkit-transform: rotateZ(234deg);
-          transform: rotateZ(234deg);
+  transform: rotateZ(234deg);
 }
-
 .inner .border .seconds:nth-child(41) {
-  -webkit-transform: rotateZ(240deg);
-          transform: rotateZ(240deg);
+  transform: rotateZ(240deg);
 }
-
 .inner .border .seconds:nth-child(42) {
-  -webkit-transform: rotateZ(246deg);
-          transform: rotateZ(246deg);
+  transform: rotateZ(246deg);
 }
-
 .inner .border .seconds:nth-child(43) {
-  -webkit-transform: rotateZ(252deg);
-          transform: rotateZ(252deg);
+  transform: rotateZ(252deg);
 }
-
 .inner .border .seconds:nth-child(44) {
-  -webkit-transform: rotateZ(258deg);
-          transform: rotateZ(258deg);
+  transform: rotateZ(258deg);
 }
-
 .inner .border .seconds:nth-child(45) {
-  -webkit-transform: rotateZ(264deg);
-          transform: rotateZ(264deg);
+  transform: rotateZ(264deg);
 }
-
 .inner .border .seconds:nth-child(46) {
-  -webkit-transform: rotateZ(270deg);
-          transform: rotateZ(270deg);
+  transform: rotateZ(270deg);
 }
-
 .inner .border .seconds:nth-child(47) {
-  -webkit-transform: rotateZ(276deg);
-          transform: rotateZ(276deg);
+  transform: rotateZ(276deg);
 }
-
 .inner .border .seconds:nth-child(48) {
-  -webkit-transform: rotateZ(282deg);
-          transform: rotateZ(282deg);
+  transform: rotateZ(282deg);
 }
-
 .inner .border .seconds:nth-child(49) {
-  -webkit-transform: rotateZ(288deg);
-          transform: rotateZ(288deg);
+  transform: rotateZ(288deg);
 }
-
 .inner .border .seconds:nth-child(50) {
-  -webkit-transform: rotateZ(294deg);
-          transform: rotateZ(294deg);
+  transform: rotateZ(294deg);
 }
-
 .inner .border .seconds:nth-child(51) {
-  -webkit-transform: rotateZ(300deg);
-          transform: rotateZ(300deg);
+  transform: rotateZ(300deg);
 }
-
 .inner .border .seconds:nth-child(52) {
-  -webkit-transform: rotateZ(306deg);
-          transform: rotateZ(306deg);
+  transform: rotateZ(306deg);
 }
-
 .inner .border .seconds:nth-child(53) {
-  -webkit-transform: rotateZ(312deg);
-          transform: rotateZ(312deg);
+  transform: rotateZ(312deg);
 }
-
 .inner .border .seconds:nth-child(54) {
-  -webkit-transform: rotateZ(318deg);
-          transform: rotateZ(318deg);
+  transform: rotateZ(318deg);
 }
-
 .inner .border .seconds:nth-child(55) {
-  -webkit-transform: rotateZ(324deg);
-          transform: rotateZ(324deg);
+  transform: rotateZ(324deg);
 }
-
 .inner .border .seconds:nth-child(56) {
-  -webkit-transform: rotateZ(330deg);
-          transform: rotateZ(330deg);
+  transform: rotateZ(330deg);
 }
-
 .inner .border .seconds:nth-child(57) {
-  -webkit-transform: rotateZ(336deg);
-          transform: rotateZ(336deg);
+  transform: rotateZ(336deg);
 }
-
 .inner .border .seconds:nth-child(58) {
-  -webkit-transform: rotateZ(342deg);
-          transform: rotateZ(342deg);
+  transform: rotateZ(342deg);
 }
-
 .inner .border .seconds:nth-child(59) {
-  -webkit-transform: rotateZ(348deg);
-          transform: rotateZ(348deg);
+  transform: rotateZ(348deg);
 }
-
 .inner .border .seconds:nth-child(60) {
-  -webkit-transform: rotateZ(354deg);
-          transform: rotateZ(354deg);
+  transform: rotateZ(354deg);
 }
 
 svg {
   width: 212px;
   height: 212px;
 }
-
 svg circle {
   stroke-width: 3px;
   fill: transparent;
   stroke: #F35A5B;
   stroke-dasharray: 578;
   stroke-dashoffset: 578;
-  -webkit-transform: rotateZ(-90deg);
-          transform: rotateZ(-90deg);
-  -webkit-transform-origin: 50% 50%;
-          transform-origin: 50% 50%;
+  transform: rotateZ(-90deg);
+  transform-origin: 50% 50%;
   -webkit-animation: dash 60s linear infinite;
           animation: dash 60s linear infinite;
 }
@@ -406,45 +274,28 @@ svg circle {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 110px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
-.content .date, .content .time, .content .health {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.content .date, .content .health, .content .time {
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
 }
-
-.content .date span, .content .time span, .content .health span {
+.content .date span, .content .health span, .content .time span {
   text-transform: uppercase;
   color: white;
   font-size: 12px;
   font-weight: 600;
 }
-
 .content .time span {
   text-align: center;
   font-size: 36px;
   width: 100%;
   display: block;
 }
-
 .content .health span .fa-heart {
   color: #f85b5b;
   -webkit-animation: beat 0.9s ease-in-out infinite;
@@ -468,26 +319,19 @@ svg circle {
     stroke-dashoffset: 0;
   }
 }
-
 @-webkit-keyframes heart {
   from {
-    -webkit-transform: scale(0.7);
-            transform: scale(0.7);
+    transform: scale(0.7);
   }
   to {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
-
 @keyframes heart {
   from {
-    -webkit-transform: scale(0.7);
-            transform: scale(0.7);
+    transform: scale(0.7);
   }
   to {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
