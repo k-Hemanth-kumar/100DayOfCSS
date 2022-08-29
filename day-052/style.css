@@ -3655,7 +3655,7 @@ body {
           animation: pulse 2s ease-in-out 3.3333333333s alternate infinite both;
 }
 
-@-webkit-keyframes pulse1 {
+@-webkit-keyframes pulse {
   0% {
     background-color: rgb(51, 8, 242);
   }
@@ -3668,7 +3668,7 @@ body {
   }
 }
 
-@keyframes pulse1 {
+@keyframes pulse {
   0% {
     background-color: rgb(51, 8, 242);
   }
