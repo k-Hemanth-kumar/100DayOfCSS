@@ -1,0 +1,149 @@
+*,*::before,*::after{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-height: 100vh;
+}
+:root{
+    --range-value:20%;
+}
+.frame{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 3px 4px 12px 0 rgba(0,0,0,.3);
+    overflow: hidden;
+    background-color: hsl(10%, 40%, 70);
+    flex-direction: column;
+    gap: 1rem;
+}
+label{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    isolation: isolate;
+    overflow: hidden;
+    color: red;
+    &::after{
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        content: '';
+        background-color: #7ad175;
+        z-index: -1;
+        top: var(--range-value);
+        transition: all .5s ease;
+    }
+}
+.center{
+    height: 40px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+$track-color:#7ad175;
+$thumb-color:#fff;
+
+$thumb-radius:24px;
+$thumb-height:24px;
+$thumb-width:24px;
+$thumb-shadow:1px 2px 4px 0 rgba(0,0,0,0.1);
+$thumb-border-width:2px;
+$thumb-border-color:#7ad175;
+
+$track-width: 270px;
+$track-height: 4px;
+$track-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.2);
+$track-radius: 2px;
+
+@mixin  track() {
+    width: $track-width;
+    height: $track-height;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+@mixin thumb(){
+    height: $thumb-height;
+    width: $thumb-width;
+    border: $thumb-border-width solid $thumb-border-color;
+    border-radius: $thumb-radius;
+    background: $thumb-color url(https://100dayscss.com/codepen/slider-thumb.png) center center no-repeat;
+	background-size: 50% 50%;
+    cursor: pointer;
+	box-shadow: $thumb-shadow;
+}
+
+[type=range]{
+    margin: 0%;
+    appearance: none;
+    -webkit-appearance: none;
+    width: $track-width;
+    //background-color: $track-color;
+    height: 30px;
+    &:focus{
+        outline: none;
+    }
+    &::-moz-focus-outer{
+        border: 0;
+    }
+    &::-webkit-slider-runnable-track{
+        @include track();
+        background-color: $track-color;
+        border: none;
+        border-radius: $track-radius;
+		box-shadow: $track-shadow;
+    }
+    &::-webkit-slider-thumb{
+        @include thumb();
+        -webkit-appearance: none;
+        margin-top: (($track-height) / 2) - ($thumb-height / 2);
+    }
+    &::-moz-range-track{
+        @include track();
+        background-color: $track-color;
+        border-radius: $track-radius;
+        border: 0;
+        box-shadow: 2px 3px 10px 5px rgba(0,0,0,0.2);
+    }
+    &::-moz-range-thumb{
+        @include thumb();
+    }
+    &::-ms-track {
+        @include track();
+        background: transparent;
+        border-color: none;
+        color: transparent;
+      }
+    
+      &::-ms-fill-lower,
+        &::-ms-fill-upper{
+        background: $track-color;
+        border: none;
+        border-radius: $track-radius;
+      }
+    
+      &::-ms-thumb {
+        @include thumb();
+      } 
+}
