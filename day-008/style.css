@@ -33,7 +33,7 @@
   left: 20px;
   width: 50px;
   height: 50px;
-  transform: rotate(62deg);
+  transform: rotate(42deg);
 }
 .ball .bulb:nth-child(1):after {
   position: absolute;
@@ -54,7 +54,7 @@
   left: 20px;
   width: 50px;
   height: 50px;
-  transform: rotate(170deg);
+  transform: rotate(74deg);
 }
 .ball .bulb:nth-child(2):after {
   position: absolute;
@@ -75,7 +75,7 @@
   left: 20px;
   width: 50px;
   height: 50px;
-  transform: rotate(45deg);
+  transform: rotate(67deg);
 }
 .ball .bulb:nth-child(3):after {
   position: absolute;
@@ -96,7 +96,7 @@
   left: 20px;
   width: 50px;
   height: 50px;
-  transform: rotate(23deg);
+  transform: rotate(14deg);
 }
 .ball .bulb:nth-child(4):after {
   position: absolute;
@@ -117,7 +117,7 @@
   left: 20px;
   width: 50px;
   height: 50px;
-  transform: rotate(8deg);
+  transform: rotate(220deg);
 }
 .ball .bulb:nth-child(5):after {
   position: absolute;
@@ -138,7 +138,7 @@
   left: 20px;
   width: 50px;
   height: 50px;
-  transform: rotate(132deg);
+  transform: rotate(256deg);
 }
 .ball .bulb:nth-child(6):after {
   position: absolute;
@@ -159,7 +159,7 @@
   left: 20px;
   width: 50px;
   height: 50px;
-  transform: rotate(134deg);
+  transform: rotate(197deg);
 }
 .ball .bulb:nth-child(7):after {
   position: absolute;
@@ -180,7 +180,7 @@
   left: 20px;
   width: 50px;
   height: 50px;
-  transform: rotate(270deg);
+  transform: rotate(39deg);
 }
 .ball .bulb:nth-child(8):after {
   position: absolute;
@@ -201,7 +201,7 @@
   left: 20px;
   width: 50px;
   height: 50px;
-  transform: rotate(186deg);
+  transform: rotate(257deg);
 }
 .ball .bulb:nth-child(9):after {
   position: absolute;
@@ -222,7 +222,7 @@
   left: 20px;
   width: 50px;
   height: 50px;
-  transform: rotate(243deg);
+  transform: rotate(99deg);
 }
 .ball .bulb:nth-child(10):after {
   position: absolute;
@@ -243,7 +243,7 @@
   left: 38px;
   width: 8px;
   height: 8px;
-  transform: rotate(300deg);
+  transform: rotate(249deg);
 }
 .ball .spark:nth-child(1):after {
   position: absolute;
@@ -264,7 +264,7 @@
   left: 38px;
   width: 9px;
   height: 9px;
-  transform: rotate(181deg);
+  transform: rotate(30deg);
 }
 .ball .spark:nth-child(2):after {
   position: absolute;
@@ -285,7 +285,7 @@
   left: 38px;
   width: 10px;
   height: 10px;
-  transform: rotate(261deg);
+  transform: rotate(16deg);
 }
 .ball .spark:nth-child(3):after {
   position: absolute;
@@ -306,7 +306,7 @@
   left: 38px;
   width: 11px;
   height: 11px;
-  transform: rotate(300deg);
+  transform: rotate(77deg);
 }
 .ball .spark:nth-child(4):after {
   position: absolute;
@@ -327,7 +327,7 @@
   left: 38px;
   width: 12px;
   height: 12px;
-  transform: rotate(184deg);
+  transform: rotate(154deg);
 }
 .ball .spark:nth-child(5):after {
   position: absolute;
@@ -348,7 +348,7 @@
   left: 38px;
   width: 13px;
   height: 13px;
-  transform: rotate(115deg);
+  transform: rotate(172deg);
 }
 .ball .spark:nth-child(6):after {
   position: absolute;
@@ -369,7 +369,7 @@
   left: 38px;
   width: 14px;
   height: 14px;
-  transform: rotate(111deg);
+  transform: rotate(256deg);
 }
 .ball .spark:nth-child(7):after {
   position: absolute;
@@ -390,7 +390,7 @@
   left: 38px;
   width: 15px;
   height: 15px;
-  transform: rotate(254deg);
+  transform: rotate(291deg);
 }
 .ball .spark:nth-child(8):after {
   position: absolute;
@@ -411,7 +411,7 @@
   left: 38px;
   width: 16px;
   height: 16px;
-  transform: rotate(6deg);
+  transform: rotate(216deg);
 }
 .ball .spark:nth-child(9):after {
   position: absolute;
@@ -432,7 +432,7 @@
   left: 38px;
   width: 17px;
   height: 17px;
-  transform: rotate(216deg);
+  transform: rotate(23deg);
 }
 .ball .spark:nth-child(10):after {
   position: absolute;
@@ -453,7 +453,7 @@
   left: 38px;
   width: 18px;
   height: 18px;
-  transform: rotate(199deg);
+  transform: rotate(209deg);
 }
 .ball .spark:nth-child(11):after {
   position: absolute;
@@ -474,7 +474,7 @@
   left: 38px;
   width: 19px;
   height: 19px;
-  transform: rotate(4deg);
+  transform: rotate(230deg);
 }
 .ball .spark:nth-child(12):after {
   position: absolute;
@@ -495,7 +495,7 @@
   left: 38px;
   width: 20px;
   height: 20px;
-  transform: rotate(197deg);
+  transform: rotate(131deg);
 }
 .ball .spark:nth-child(13):after {
   position: absolute;
@@ -516,7 +516,7 @@
   left: 38px;
   width: 21px;
   height: 21px;
-  transform: rotate(150deg);
+  transform: rotate(109deg);
 }
 .ball .spark:nth-child(14):after {
   position: absolute;
@@ -537,7 +537,7 @@
   left: 38px;
   width: 22px;
   height: 22px;
-  transform: rotate(22deg);
+  transform: rotate(70deg);
 }
 .ball .spark:nth-child(15):after {
   position: absolute;
@@ -558,7 +558,7 @@
   left: 38px;
   width: 23px;
   height: 23px;
-  transform: rotate(292deg);
+  transform: rotate(26deg);
 }
 .ball .spark:nth-child(16):after {
   position: absolute;
@@ -579,7 +579,7 @@
   left: 38px;
   width: 24px;
   height: 24px;
-  transform: rotate(59deg);
+  transform: rotate(194deg);
 }
 .ball .spark:nth-child(17):after {
   position: absolute;
@@ -600,7 +600,7 @@
   left: 38px;
   width: 25px;
   height: 25px;
-  transform: rotate(126deg);
+  transform: rotate(203deg);
 }
 .ball .spark:nth-child(18):after {
   position: absolute;
@@ -621,7 +621,7 @@
   left: 38px;
   width: 26px;
   height: 26px;
-  transform: rotate(201deg);
+  transform: rotate(103deg);
 }
 .ball .spark:nth-child(19):after {
   position: absolute;
@@ -642,7 +642,7 @@
   left: 38px;
   width: 27px;
   height: 27px;
-  transform: rotate(291deg);
+  transform: rotate(292deg);
 }
 .ball .spark:nth-child(20):after {
   position: absolute;
@@ -663,7 +663,7 @@
   left: 38px;
   width: 28px;
   height: 28px;
-  transform: rotate(227deg);
+  transform: rotate(77deg);
 }
 .ball .spark:nth-child(21):after {
   position: absolute;
@@ -684,7 +684,7 @@
   left: 38px;
   width: 29px;
   height: 29px;
-  transform: rotate(184deg);
+  transform: rotate(194deg);
 }
 .ball .spark:nth-child(22):after {
   position: absolute;
@@ -705,7 +705,7 @@
   left: 38px;
   width: 30px;
   height: 30px;
-  transform: rotate(260deg);
+  transform: rotate(52deg);
 }
 .ball .spark:nth-child(23):after {
   position: absolute;
@@ -726,7 +726,7 @@
   left: 38px;
   width: 31px;
   height: 31px;
-  transform: rotate(219deg);
+  transform: rotate(14deg);
 }
 .ball .spark:nth-child(24):after {
   position: absolute;
@@ -747,7 +747,7 @@
   left: 38px;
   width: 32px;
   height: 32px;
-  transform: rotate(285deg);
+  transform: rotate(98deg);
 }
 .ball .spark:nth-child(25):after {
   position: absolute;
@@ -768,7 +768,7 @@
   left: 38px;
   width: 33px;
   height: 33px;
-  transform: rotate(5deg);
+  transform: rotate(42deg);
 }
 .ball .spark:nth-child(26):after {
   position: absolute;
@@ -789,7 +789,7 @@
   left: 38px;
   width: 34px;
   height: 34px;
-  transform: rotate(207deg);
+  transform: rotate(130deg);
 }
 .ball .spark:nth-child(27):after {
   position: absolute;
@@ -810,7 +810,7 @@
   left: 38px;
   width: 35px;
   height: 35px;
-  transform: rotate(174deg);
+  transform: rotate(47deg);
 }
 .ball .spark:nth-child(28):after {
   position: absolute;
@@ -831,7 +831,7 @@
   left: 38px;
   width: 36px;
   height: 36px;
-  transform: rotate(188deg);
+  transform: rotate(11deg);
 }
 .ball .spark:nth-child(29):after {
   position: absolute;
@@ -852,7 +852,7 @@
   left: 38px;
   width: 37px;
   height: 37px;
-  transform: rotate(200deg);
+  transform: rotate(195deg);
 }
 .ball .spark:nth-child(30):after {
   position: absolute;
@@ -873,7 +873,7 @@
   left: 38px;
   width: 38px;
   height: 38px;
-  transform: rotate(60deg);
+  transform: rotate(132deg);
 }
 .ball .spark:nth-child(31):after {
   position: absolute;
@@ -894,7 +894,7 @@
   left: 38px;
   width: 39px;
   height: 39px;
-  transform: rotate(31deg);
+  transform: rotate(32deg);
 }
 .ball .spark:nth-child(32):after {
   position: absolute;
@@ -915,7 +915,7 @@
   left: 38px;
   width: 40px;
   height: 40px;
-  transform: rotate(52deg);
+  transform: rotate(277deg);
 }
 .ball .spark:nth-child(33):after {
   position: absolute;
@@ -936,7 +936,7 @@
   left: 38px;
   width: 41px;
   height: 41px;
-  transform: rotate(249deg);
+  transform: rotate(5deg);
 }
 .ball .spark:nth-child(34):after {
   position: absolute;
@@ -957,7 +957,7 @@
   left: 38px;
   width: 42px;
   height: 42px;
-  transform: rotate(148deg);
+  transform: rotate(116deg);
 }
 .ball .spark:nth-child(35):after {
   position: absolute;
@@ -978,7 +978,7 @@
   left: 38px;
   width: 43px;
   height: 43px;
-  transform: rotate(294deg);
+  transform: rotate(291deg);
 }
 .ball .spark:nth-child(36):after {
   position: absolute;
@@ -999,7 +999,7 @@
   left: 38px;
   width: 44px;
   height: 44px;
-  transform: rotate(28deg);
+  transform: rotate(127deg);
 }
 .ball .spark:nth-child(37):after {
   position: absolute;
@@ -1020,7 +1020,7 @@
   left: 38px;
   width: 45px;
   height: 45px;
-  transform: rotate(220deg);
+  transform: rotate(104deg);
 }
 .ball .spark:nth-child(38):after {
   position: absolute;
@@ -1041,7 +1041,7 @@
   left: 38px;
   width: 46px;
   height: 46px;
-  transform: rotate(279deg);
+  transform: rotate(78deg);
 }
 .ball .spark:nth-child(39):after {
   position: absolute;
@@ -1062,7 +1062,7 @@
   left: 38px;
   width: 47px;
   height: 47px;
-  transform: rotate(26deg);
+  transform: rotate(114deg);
 }
 .ball .spark:nth-child(40):after {
   position: absolute;
@@ -1083,7 +1083,7 @@
   left: 38px;
   width: 48px;
   height: 48px;
-  transform: rotate(202deg);
+  transform: rotate(56deg);
 }
 .ball .spark:nth-child(41):after {
   position: absolute;
@@ -1104,7 +1104,7 @@
   left: 38px;
   width: 49px;
   height: 49px;
-  transform: rotate(286deg);
+  transform: rotate(240deg);
 }
 .ball .spark:nth-child(42):after {
   position: absolute;
@@ -1125,7 +1125,7 @@
   left: 38px;
   width: 50px;
   height: 50px;
-  transform: rotate(60deg);
+  transform: rotate(95deg);
 }
 .ball .spark:nth-child(43):after {
   position: absolute;
@@ -1146,7 +1146,7 @@
   left: 38px;
   width: 51px;
   height: 51px;
-  transform: rotate(290deg);
+  transform: rotate(187deg);
 }
 .ball .spark:nth-child(44):after {
   position: absolute;
@@ -1167,7 +1167,7 @@
   left: 38px;
   width: 52px;
   height: 52px;
-  transform: rotate(185deg);
+  transform: rotate(257deg);
 }
 .ball .spark:nth-child(45):after {
   position: absolute;
@@ -1188,7 +1188,7 @@
   left: 38px;
   width: 53px;
   height: 53px;
-  transform: rotate(109deg);
+  transform: rotate(250deg);
 }
 .ball .spark:nth-child(46):after {
   position: absolute;
@@ -1209,7 +1209,7 @@
   left: 38px;
   width: 54px;
   height: 54px;
-  transform: rotate(222deg);
+  transform: rotate(64deg);
 }
 .ball .spark:nth-child(47):after {
   position: absolute;
@@ -1230,7 +1230,7 @@
   left: 38px;
   width: 55px;
   height: 55px;
-  transform: rotate(195deg);
+  transform: rotate(103deg);
 }
 .ball .spark:nth-child(48):after {
   position: absolute;
@@ -1251,7 +1251,7 @@
   left: 38px;
   width: 56px;
   height: 56px;
-  transform: rotate(133deg);
+  transform: rotate(74deg);
 }
 .ball .spark:nth-child(49):after {
   position: absolute;
@@ -1272,7 +1272,7 @@
   left: 38px;
   width: 57px;
   height: 57px;
-  transform: rotate(151deg);
+  transform: rotate(182deg);
 }
 .ball .spark:nth-child(50):after {
   position: absolute;
@@ -1293,7 +1293,7 @@
   left: 38px;
   width: 58px;
   height: 58px;
-  transform: rotate(32deg);
+  transform: rotate(125deg);
 }
 .ball .spark:nth-child(51):after {
   position: absolute;
@@ -1314,7 +1314,7 @@
   left: 38px;
   width: 59px;
   height: 59px;
-  transform: rotate(166deg);
+  transform: rotate(258deg);
 }
 .ball .spark:nth-child(52):after {
   position: absolute;
@@ -1335,7 +1335,7 @@
   left: 38px;
   width: 60px;
   height: 60px;
-  transform: rotate(115deg);
+  transform: rotate(67deg);
 }
 .ball .spark:nth-child(53):after {
   position: absolute;
@@ -1356,7 +1356,7 @@
   left: 38px;
   width: 61px;
   height: 61px;
-  transform: rotate(289deg);
+  transform: rotate(295deg);
 }
 .ball .spark:nth-child(54):after {
   position: absolute;
@@ -1377,7 +1377,7 @@
   left: 38px;
   width: 62px;
   height: 62px;
-  transform: rotate(287deg);
+  transform: rotate(17deg);
 }
 .ball .spark:nth-child(55):after {
   position: absolute;
@@ -1398,7 +1398,7 @@
   left: 38px;
   width: 63px;
   height: 63px;
-  transform: rotate(204deg);
+  transform: rotate(293deg);
 }
 .ball .spark:nth-child(56):after {
   position: absolute;
@@ -1419,7 +1419,7 @@
   left: 38px;
   width: 64px;
   height: 64px;
-  transform: rotate(102deg);
+  transform: rotate(125deg);
 }
 .ball .spark:nth-child(57):after {
   position: absolute;
@@ -1440,7 +1440,7 @@
   left: 38px;
   width: 65px;
   height: 65px;
-  transform: rotate(49deg);
+  transform: rotate(135deg);
 }
 .ball .spark:nth-child(58):after {
   position: absolute;
@@ -1461,7 +1461,7 @@
   left: 38px;
   width: 66px;
   height: 66px;
-  transform: rotate(243deg);
+  transform: rotate(83deg);
 }
 .ball .spark:nth-child(59):after {
   position: absolute;
@@ -1482,7 +1482,7 @@
   left: 38px;
   width: 67px;
   height: 67px;
-  transform: rotate(264deg);
+  transform: rotate(274deg);
 }
 .ball .spark:nth-child(60):after {
   position: absolute;
@@ -1503,7 +1503,7 @@
   left: 38px;
   width: 68px;
   height: 68px;
-  transform: rotate(54deg);
+  transform: rotate(18deg);
 }
 .ball .spark:nth-child(61):after {
   position: absolute;
@@ -1524,7 +1524,7 @@
   left: 38px;
   width: 69px;
   height: 69px;
-  transform: rotate(52deg);
+  transform: rotate(165deg);
 }
 .ball .spark:nth-child(62):after {
   position: absolute;
@@ -1545,7 +1545,7 @@
   left: 38px;
   width: 70px;
   height: 70px;
-  transform: rotate(7deg);
+  transform: rotate(85deg);
 }
 .ball .spark:nth-child(63):after {
   position: absolute;
@@ -1566,7 +1566,7 @@
   left: 38px;
   width: 71px;
   height: 71px;
-  transform: rotate(271deg);
+  transform: rotate(174deg);
 }
 .ball .spark:nth-child(64):after {
   position: absolute;
@@ -1587,7 +1587,7 @@
   left: 38px;
   width: 72px;
   height: 72px;
-  transform: rotate(76deg);
+  transform: rotate(57deg);
 }
 .ball .spark:nth-child(65):after {
   position: absolute;
@@ -1608,7 +1608,7 @@
   left: 38px;
   width: 73px;
   height: 73px;
-  transform: rotate(105deg);
+  transform: rotate(258deg);
 }
 .ball .spark:nth-child(66):after {
   position: absolute;
@@ -1629,7 +1629,7 @@
   left: 38px;
   width: 74px;
   height: 74px;
-  transform: rotate(158deg);
+  transform: rotate(49deg);
 }
 .ball .spark:nth-child(67):after {
   position: absolute;
@@ -1650,7 +1650,7 @@
   left: 38px;
   width: 75px;
   height: 75px;
-  transform: rotate(45deg);
+  transform: rotate(265deg);
 }
 .ball .spark:nth-child(68):after {
   position: absolute;
@@ -1671,7 +1671,7 @@
   left: 38px;
   width: 76px;
   height: 76px;
-  transform: rotate(180deg);
+  transform: rotate(95deg);
 }
 .ball .spark:nth-child(69):after {
   position: absolute;
@@ -1692,7 +1692,7 @@
   left: 38px;
   width: 77px;
   height: 77px;
-  transform: rotate(235deg);
+  transform: rotate(19deg);
 }
 .ball .spark:nth-child(70):after {
   position: absolute;
@@ -1713,7 +1713,7 @@
   left: 38px;
   width: 78px;
   height: 78px;
-  transform: rotate(176deg);
+  transform: rotate(254deg);
 }
 .ball .spark:nth-child(71):after {
   position: absolute;
@@ -1734,7 +1734,7 @@
   left: 38px;
   width: 79px;
   height: 79px;
-  transform: rotate(147deg);
+  transform: rotate(19deg);
 }
 .ball .spark:nth-child(72):after {
   position: absolute;
@@ -1755,7 +1755,7 @@
   left: 38px;
   width: 80px;
   height: 80px;
-  transform: rotate(242deg);
+  transform: rotate(99deg);
 }
 .ball .spark:nth-child(73):after {
   position: absolute;
@@ -1776,7 +1776,7 @@
   left: 38px;
   width: 81px;
   height: 81px;
-  transform: rotate(66deg);
+  transform: rotate(243deg);
 }
 .ball .spark:nth-child(74):after {
   position: absolute;
@@ -1797,7 +1797,7 @@
   left: 38px;
   width: 82px;
   height: 82px;
-  transform: rotate(117deg);
+  transform: rotate(238deg);
 }
 .ball .spark:nth-child(75):after {
   position: absolute;
@@ -1818,7 +1818,7 @@
   left: 38px;
   width: 83px;
   height: 83px;
-  transform: rotate(168deg);
+  transform: rotate(291deg);
 }
 .ball .spark:nth-child(76):after {
   position: absolute;
@@ -1839,7 +1839,7 @@
   left: 38px;
   width: 84px;
   height: 84px;
-  transform: rotate(202deg);
+  transform: rotate(147deg);
 }
 .ball .spark:nth-child(77):after {
   position: absolute;
@@ -1860,7 +1860,7 @@
   left: 38px;
   width: 85px;
   height: 85px;
-  transform: rotate(28deg);
+  transform: rotate(187deg);
 }
 .ball .spark:nth-child(78):after {
   position: absolute;
@@ -1881,7 +1881,7 @@
   left: 38px;
   width: 86px;
   height: 86px;
-  transform: rotate(175deg);
+  transform: rotate(269deg);
 }
 .ball .spark:nth-child(79):after {
   position: absolute;
@@ -1902,7 +1902,7 @@
   left: 38px;
   width: 87px;
   height: 87px;
-  transform: rotate(83deg);
+  transform: rotate(245deg);
 }
 .ball .spark:nth-child(80):after {
   position: absolute;
@@ -1923,7 +1923,7 @@
   left: 38px;
   width: 88px;
   height: 88px;
-  transform: rotate(204deg);
+  transform: rotate(101deg);
 }
 .ball .spark:nth-child(81):after {
   position: absolute;
@@ -1944,7 +1944,7 @@
   left: 38px;
   width: 89px;
   height: 89px;
-  transform: rotate(72deg);
+  transform: rotate(44deg);
 }
 .ball .spark:nth-child(82):after {
   position: absolute;
@@ -1965,7 +1965,7 @@
   left: 38px;
   width: 90px;
   height: 90px;
-  transform: rotate(190deg);
+  transform: rotate(7deg);
 }
 .ball .spark:nth-child(83):after {
   position: absolute;
@@ -1986,7 +1986,7 @@
   left: 38px;
   width: 91px;
   height: 91px;
-  transform: rotate(181deg);
+  transform: rotate(198deg);
 }
 .ball .spark:nth-child(84):after {
   position: absolute;
@@ -2007,7 +2007,7 @@
   left: 38px;
   width: 92px;
   height: 92px;
-  transform: rotate(150deg);
+  transform: rotate(293deg);
 }
 .ball .spark:nth-child(85):after {
   position: absolute;
@@ -2028,7 +2028,7 @@
   left: 38px;
   width: 93px;
   height: 93px;
-  transform: rotate(4deg);
+  transform: rotate(263deg);
 }
 .ball .spark:nth-child(86):after {
   position: absolute;
@@ -2049,7 +2049,7 @@
   left: 38px;
   width: 94px;
   height: 94px;
-  transform: rotate(53deg);
+  transform: rotate(208deg);
 }
 .ball .spark:nth-child(87):after {
   position: absolute;
@@ -2070,7 +2070,7 @@
   left: 38px;
   width: 95px;
   height: 95px;
-  transform: rotate(10deg);
+  transform: rotate(85deg);
 }
 .ball .spark:nth-child(88):after {
   position: absolute;
@@ -2091,7 +2091,7 @@
   left: 38px;
   width: 96px;
   height: 96px;
-  transform: rotate(208deg);
+  transform: rotate(78deg);
 }
 .ball .spark:nth-child(89):after {
   position: absolute;
@@ -2112,7 +2112,7 @@
   left: 38px;
   width: 97px;
   height: 97px;
-  transform: rotate(230deg);
+  transform: rotate(186deg);
 }
 .ball .spark:nth-child(90):after {
   position: absolute;
@@ -2133,7 +2133,7 @@
   left: 38px;
   width: 98px;
   height: 98px;
-  transform: rotate(92deg);
+  transform: rotate(29deg);
 }
 .ball .spark:nth-child(91):after {
   position: absolute;
